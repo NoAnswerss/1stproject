@@ -1,0 +1,35 @@
+#flexbox-container {
+    display: flex;
+   
+}
+html {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#accomodations {
+    width: 200px;
+    color: #0065FC;
+} 
+
+#activities {
+    width: 120px;
+    color: grey;
+}
+
+#sign_up {
+    width: 90px;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+#search_bar {
+    display: flex;
+}
+/* dark blue = #0065FC
+font-family: 'Raleway', sans-serif;
+background-color: #F2F2F2
