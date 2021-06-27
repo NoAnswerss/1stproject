@@ -1,2 +1,14 @@
-Project no2
-Now add a description of your first repo. Once you're done, you'll see a little box at the bottom of the page called Commit changes.  This is where you log and describe what changes you've made to your repository.  You can title it something like: wrote description.  Just type it in and click the Commit changes button on the button. 
+Started from scratch again
+Made the html file
+linked it to the CSS 
+added the required font family
+added id to header.
+added a nav 
+created href anchors without actual link
+added a h3 and p 
+added a search bar with a img src pin in a div
+asigned specific names to each class
+changed id and class to class only .
+created a html div for CSS Grid
+Added display-flex to Header
+Added the required font-family
