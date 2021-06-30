@@ -51,27 +51,56 @@ header {
     height: 40px;
     margin-left: 1px;
 }
-.container {
+#containerdiv {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr 0.3fr 2.4fr;
-    gap: 0px 0px;
+    grid-template-rows: 0.2fr;
+    gap: 10px 15px;
     grid-auto-flow: row;
+    width: 900px;
     grid-template-areas:
       ". . . . ."
       "Filters Low-Cost Family-friendly Romantic Pets-allowed"
       ". . . . .";
   }
   
-  .Filters { grid-area: Filters; }
+  #Filters {
+       grid-area: Filters;  
+    }
   
-  .Low-Cost { grid-area: Low-Cost; }
+  #Low-Cost { 
+      grid-area: Low-Cost;
+      text-align: center;
+      top: 50px;
+      border:solid 1px #F2F2F2;
+      border-radius: 30px;
+      border-width: 2px;
+    }
   
-  .Family-friendly { grid-area: Family-friendly; }
+  #Family-friendly { 
+      grid-area: Family-friendly;
+      text-align: center;
+      border:solid 1px #F2F2F2;
+      border-radius: 30px;
+      border-width: 2px;
+    }
   
-  .Romantic { grid-area: Romantic; }
+  #Romantic { 
+      grid-area: Romantic;
+      text-align: center;
+      border: solid 1px #F2F2F2;
+      border-radius: 30px;
+      border-width: 2px;
+    }
   
-  .Pets-allowed { grid-area: Pets-allowed; }
+  #Pets-allowed { 
+      grid-area: Pets-allowed;
+      text-align: center;
+      border:solid 1px #F2F2F2;
+      border-radius: 30px;
+      border-width: 2px;
+    }
+  
   
 /* dark blue = #0065FC
 font-family: 'Raleway', sans-serif;
