@@ -12,3 +12,7 @@ changed id and class to class only .
 created a html div for CSS Grid
 Added display-flex to Header
 Added the required font-family
+added grid with linked pictures that have a color changing effect when hovered over and ease-out.
+change the pictures format from jpeg to png for better quality .
+swapped divs into anchors 
+added headings and paragraphs to the page .
