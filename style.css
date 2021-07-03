@@ -31,15 +31,13 @@ header {
 
 h1 {
   font-size: medium;
-}
-#div {
-    display: flex;
+
 }
 
 #pin {
     position: relative;
     background-color:#F2F2F2 ;
-    height: 40px;
+    height: 46px;
     width: 35px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -52,58 +50,57 @@ h1 {
 }
 #search_bar {
     display: flex;
+    border: thin #F2F2F2;
+    
 }
 #search {
-    border:none;
+    
     height: 40px;
     margin-left: 1px;
 }
-.containerdiv {
-    height: 30px;
+#filtersdiv {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-flow: wrap;
-
+    flex-wrap: wrap;
+    
+    
   }
   .fas {
-    
+
     color: #0065FC;
-    background-color: #DEEBFF;
-    border:#F2F2F2 solid;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    background-color: #DEEBFF; 
+
   }
-  .Filters {
-       width: 150px;
+  #Filters {
+       flex-basis: 100px;
        text-decoration: none;
        font-weight: bold;
     }
   
-  .Low-Cost { 
+  #Low-Cost { 
       text-decoration: none;
       font-weight: bold;
       flex-wrap: wrap;
       border: #F2F2F2 solid;
-      border-end-end-radius: 5px;
+     
     }
   
   
-  .Family-friendly { 
+  #Family-friendly { 
       text-decoration: none;
       font-weight: bold;
       border: 1px solid #F2F2F2;
       border-radius: 10px;
     }
   
-  .Romantic { 
+  #Romantic { 
       text-decoration: none;
       font-weight: bold;
       border: 1px solid #F2F2F2;
       border-radius: 10px;
     }
   
-  .Pets-allowed { 
+  #Pets-allowed { 
       text-decoration: none;
       font-weight: bold;
       border: 1px solid #F2F2F2;
