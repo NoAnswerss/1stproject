@@ -1,4 +1,4 @@
-#flexbox-container {
+#flexbox-containers {
     display: flex;
 }
 html {
@@ -13,17 +13,24 @@ header {
 #accomodations {
     width: 200px;
     color: #0065FC;
+    text-decoration: none;
 } 
 
 #activities {
     width: 120px;
     color: grey;
+    text-decoration: none;
 }
 
 #sign_up {
     width: 90px;
     color: #0065FC;
     font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+  font-size: medium;
 }
 #div {
     display: flex;
@@ -51,104 +58,57 @@ header {
     height: 40px;
     margin-left: 1px;
 }
-#containerdiv {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr;
-    gap: 10px 15px;
-    grid-auto-flow: row;
-    width: 910px;
-    grid-template-areas:
-      ". . . . ."
-      "Filters Low-Cost Family-friendly Romantic Pets-allowed"
-      ". . . . .";
-  }
-  
-  #Filters {
-       grid-area: Filters;
-       font-weight: bold;  
-    }
-  
-  #Low-Cost { 
-      grid-area: Low-Cost;
-      font-weight: bold;  
-      text-align: center;
-      border:solid 1px #F2F2F2;
-      border-radius: 30px;
-      border-width: 2px;
-    }
-  
-  #Family-friendly { 
-      grid-area: Family-friendly;
-      font-weight: bold;  
-      text-align: center;
-      border:solid 1px #F2F2F2;
-      border-radius: 30px;
-      border-width: 2px;
-    }
-  
-  #Romantic { 
-      grid-area: Romantic;
-      font-weight: bold;  
-      text-align: center;
-      border: solid 1px #F2F2F2;
-      border-radius: 30px;
-      border-width: 2px;
-    }
-  
-  #Pets-allowed { 
-      grid-area: Pets-allowed;
-      font-weight: bold;  
-      text-align: center;
-      border:solid 1px #F2F2F2;
-      border-radius: 30px;
-      border-width: 2px;
-    }
-  #more {
-      position: relative;
+.containerdiv {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-flow: wrap;
 
-      left: 2px;
-      margin-top: 20px;
   }
-  #city {
-      margin-left: 30px;
+  .fas {
+    
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border:#F2F2F2 solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
-      
-  #infopng {
-      grid-area: infopng;
-      text-align: center;
-      border:solid 3px #F2F2F2;
-      border-radius: 20px;
-  }
+  .Filters {
+       width: 150px;
+       text-decoration: none;
+       font-weight: bold;
+    }
   
-  .midgrid {
-    display: grid;
-    background-color: #F2F2F2;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 1.3fr 1.3fr;
-    gap: 30px 30px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Accomodations- Accomodations- ."
-      "cannebiere duport mouettes"
-      "delamer panier amina";
-    width: 63.1%;
-    height: 61.8%;
-  }
+  .Low-Cost { 
+      text-decoration: none;
+      font-weight: bold;
+      flex-wrap: wrap;
+      border: #F2F2F2 solid;
+      border-end-end-radius: 5px;
+    }
   
-  .Accomodations- { grid-area: Accomodations-; }
   
-  .cannebiere { grid-area: cannebiere; }
+  .Family-friendly { 
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #F2F2F2;
+      border-radius: 10px;
+    }
   
-  .duport { grid-area: duport; }
+  .Romantic { 
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #F2F2F2;
+      border-radius: 10px;
+    }
   
-  .mouettes { grid-area: mouettes; }
-  
-  .delamer { grid-area: delamer; }
-  
-  .panier { grid-area: panier; }
-  
-  .amina { grid-area: amina; }
+  .Pets-allowed { 
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #F2F2F2;
+      border-radius: 10px;
+    }
   
   a:link {
     color: rebeccapurple;
