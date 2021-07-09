@@ -31,7 +31,6 @@ header {
 
 h1 {
   font-size: medium;
-
 }
 
 #pin {
@@ -58,62 +57,59 @@ h1 {
     height: 40px;
     margin-left: 1px;
 }
-#filtersdiv {
+.filtersdiv {
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .fas {
+    
+    color: #0065FC;
+    background-color: #DEEBFF;
+  }
+  .fas:hover {
+    color: darkred;
+    transform: scaleX(1.021)
+    
+  }
+  .lowcost {
+    display: flex;
+    text-decoration: none;    
+  }  
+  .Filters {    
+    display: flex;     
+    justify-content: center; 
+    text-decoration: none;    
+  }
+  footer {
+    background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     
-    
+}
+  .firstfoot {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
   }
-  .fas {
-
-    color: #0065FC;
-    background-color: #DEEBFF; 
-
+  a:hover {
+    transform: scaleX(1.021);
   }
-  #Filters {
-       flex-basis: 100px;
-       text-decoration: none;
-       font-weight: bold;
-    }
-  
-  #Low-Cost { 
-      text-decoration: none;
-      font-weight: bold;
-      flex-wrap: wrap;
-      border: #F2F2F2 solid;
-     
-    }
-  
-  
-  #Family-friendly { 
-      text-decoration: none;
-      font-weight: bold;
-      border: 1px solid #F2F2F2;
-      border-radius: 10px;
-    }
-  
-  #Romantic { 
-      text-decoration: none;
-      font-weight: bold;
-      border: 1px solid #F2F2F2;
-      border-radius: 10px;
-    }
-  
-  #Pets-allowed { 
-      text-decoration: none;
-      font-weight: bold;
-      border: 1px solid #F2F2F2;
-      border-radius: 10px;
-    }
-  
+
   a:link {
     color: rebeccapurple;
   }
-  a:hover {
-    color: red;
-    transform: scaleX(1.021);
+  
+  #rightfoot {
+    margin-right: 10%;
   }
+
+
 
 /* dark blue = #0065FC
 font-family: 'Raleway', sans-serif;
