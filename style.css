@@ -112,8 +112,14 @@ h1 {
     font-weight: bolder;
     margin-bottom: 35px;
   }
+  #wrapall {
+    background-color: thistle;
+    display: flex;
+    flex-wrap: wrap;
+  }
   #imagewrapper {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     padding: 5px;
@@ -123,7 +129,7 @@ h1 {
     padding: 2%;
     margin: 2% 1% 3% 4%;
     border-radius: 4%;
-    width: 75%;
+    width: 46%;
   }
   .img_area {
     display: flex;
@@ -137,35 +143,31 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     width: 80%;
-  }
-  #divimage3 {
-    display: flex;
-    background-color: #F2F2F2;
-    padding: 2%;
-    margin: 2%;
-    border-radius: 4%;
-    width: 55%;
   }
   .img_area3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 95%;
-    background-color: darkorange;
-    padding: 7%;
+    padding: 2%;
+    margin: 2% 1% 3% 4%;
+    border-radius: 4%;
+    width: 25%;
+    background-color: darksalmon;
   }
   .single-img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    flex-grow: 3;
     background-color: white;
     border-radius: 10px;
-    padding: 5px 5px 5px 5px;
+    width: 85%;
+    padding: 1% 1% 20% 1%;
     margin: 8%;
   }
   .single-imgtwo {
@@ -178,6 +180,24 @@ h1 {
     border-bottom-left-radius: 3%;
     padding: 8px 2px 5px 5px;
     margin: 3%;
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 2%;
+  }
+  #pomisland {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #notrechamp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   img:hover {
     opacity: .8;
@@ -206,6 +226,7 @@ h1 {
     list-style: none;
   }
   li {
+    color: black;
     margin: 15px 8px 8px 8px;
   }
   a {
@@ -221,6 +242,13 @@ h1 {
 }
   body {
     background-color: darkslategrey;
+  }
+  h2 {
+    color: black;
+  }
+  h2:hover {
+    color: brown;
+    transform:skewX(2)
   }
 /* dark blue = #0065FC
 font-family: 'Raleway', sans-serif;
