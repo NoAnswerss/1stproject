@@ -26,7 +26,7 @@ header {
 }
 
 #sign_up {
-    width: 90px;
+    width: 110px;
     color: #0065FC;
     font-weight: bold;
     text-decoration: none;
@@ -63,24 +63,23 @@ h1 {
     transform: scaleX(1.021)
   }
   #filtersdiv {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    justify-content: flex-start;
     align-items: center;
-    text-align: center;
     margin-top: 1.3%;
   }
-  .fas {
-    color: #0065FC;
-    background-color: #DEEBFF;
-    border-radius: 35px;
+  i {
+    height: 25px;
+    width: 25px;
   } 
   #lowcost {
     display: flex;
     text-decoration: none;
     border-style: solid;
     border-color: #F2F2F2;
-    border-radius: 30%;
+    border-radius: 25%;
     height: 25px;
   }  
   #family {
@@ -109,48 +108,76 @@ h1 {
     justify-content: center; 
     text-decoration: none;    
   }
+  #p_accomodations {
+    font-weight: bolder;
+    margin-bottom: 35px;
+  }
+  #imagewrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+  }
   .hotels_top {
     background-color: #F2F2F2;
     padding: 2%;
-    margin: 2%;
+    margin: 2% 1% 3% 4%;
     border-radius: 4%;
-    width: 43%;
+    width: 75%;
   }
   .img_area {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    
+    justify-content: center;
+    width: 80%;
   }
   .img_area2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 80%;
   }
   #divimage3 {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    background-color: #F2F2F2;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 4%;
+    width: 55%;
   }
   .img_area3 {
-    background-color: #F2F2F2;
-    border-radius: 3%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 3%;
-    margin: 2%;
-    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    background-color: darkorange;
+    padding: 7%;
   }
   .single-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
     border-radius: 10px;
-    padding: 0 20px 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 8%;
+  }
+  .single-imgtwo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    padding: 8px 2px 5px 5px;
+    margin: 3%;
   }
   img:hover {
     opacity: .8;
@@ -171,25 +198,34 @@ h1 {
   #leftfooter {
     nav-down: auto;
   }
-  li {
-    margin:0% 0 3% 0;
-  }
+
   #rightfoot {
     margin-right: 10%;
   }
   ul {
     list-style: none;
   }
+  li {
+    margin: 15px 8px 8px 8px;
+  }
   a {
     text-decoration: none;
   }
-
+.fas {
+  color: #0065FC;
+  height: 90%;
+  width: 1fr;
+  border-radius: 45%;
+  display: flex;
+  align-items: flex-end;
+}
+  body {
+    background-color: darkslategrey;
+  }
 /* dark blue = #0065FC
 font-family: 'Raleway', sans-serif;
 background-color: #F2F2F2
-/* a:link {
-    color: rebeccapurple;
-  }
+/* 
   a:hover {
     color: red;
     transform: scaleX(1.021);
