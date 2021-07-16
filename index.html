@@ -17,7 +17,7 @@
         <img src="logo.png" alt="reservia_logo" width="100" height="50">
         <nav id="flexbox-containers">
             <a id="accomodations" href="#accomo" >Accomodations</a>
-            <a id="activities" href="" > Activities </a>
+            <a id="activities" href="#act" > Activities </a>
             <a  id="sign_up" href="" > Sign Up </a>
         </nav>
     </header>
@@ -27,140 +27,214 @@
         <div id="pin">
             <img id="location_pin" src="location.png" alt="location_logo" width="20" height="20">
         </div>
-            <input type="text" id="search" name="search">
-            <input type="submit" value="Search" id="search_button" size="50px 20px">
+        <input type="text" id="search" name="search">
+        <input type="submit" value="Search" id="search_button" size="50px 20px">
     </div>
     <div id="filtersdiv">
         <a id="Filters" href="" ><p>Filters</p></a>
-        <a href="" id="lowcost"><i class="fas fa-money-bill-wave fa-lg"></i>Low-Cost</a>
-        <a href="" id="family"><i class="fas fa-child fa-lg"></i>Family-friendly</a>       
-        <a href="" id="romantic"><i class="fas fa-heart"></i>Romantic</a>
-        <a href="" id="pets"><i class="fas fa-dog "></i>Pets-allowed</a>
+        <a href="" id="lowcost"><div class="filtericons"><i class="fas fa-money-bill-wave fa-lg"></i></div>Low-Cost</a>
+        <a href="" id="family"><div class="filtericons"><i class="fas fa-child fa-lg"></i></div>Family-friendly</a>       
+        <a href="" id="romantic"><div class="filtericons"><i class="fas fa-heart"></i></div>Romantic</a>
+        <a href="" id="pets"><div class="filtericons"><i class="fas fa-dog "></i></div>Pets-allowed</a>
     </div>
     <p id="informations">
-    <p id="more"><i class="fas fa-info"></i>More than 500 accomodations are available in this</p>
-    <p id="city">city</p>
+        <p id="more"><i class="fas fa-info"></i>More than 500 accomodations are available in this</p>
+        <p id="city">city</p>
     </p>
     <div id="wrapall">
-    <div id="imagewrapper">   
-    <div class="hotels_top">
-        <h2 id="p_accomodations">Accomodations in Marseille</h2>
-        <div class="img_area">
-            <a href="">
-            <div id="cannebiere">
-            <div class="single-img"><img src="marcus.png" alt="Bed/Window Image" height="130" width="200"></div>
-                <h2>Auberge la Cannebiere</h2>
-                <p>Night starting at <strong>25€</strong></p>
-                <i class="fas fa-star"></i>
-            </div></a>
-            <a href="">
-            <div id="du-port">
-             <div class="single-img"><img src="fred.png" alt="Bedroom Image" height="130" width="200"></div>
-                <h2>Hotel du port</h2>
-                <p>Night starting at <strong>52€</strong></p>
-                <i class="fas fa-star"></i>
-            </div></a>
-            <a href="">
-            <div id="les-mouettes">
-            <div class="single-img"><img src="mouettes.png" alt="Bedroom Image" height="130" width="200"></div>
-                <h2>Les mouettes hotel</h2>
-                <p>Night starting at <strong>76€</strong></p>
-                <i class="fas fa-star"></i>
-            </div></a>
+        <div id="imagewrapper">   
+            <div class="hotels_top">
+                <h2 id="p_accomodations">Accomodations in Marseille</h2>
+                <div class="img_area">
+                    <a href="">
+                        <div id="cannebiere">
+                            <div class="single-img"><img class="siximages" src="marcus.png" alt="Bed/Window Image" height="130" width="200">
+                                <div>
+                                    <h2>Auberge La Cannebiere</h2>
+                                    <p>Night starting at <strong>25€</strong></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star" style="color: lightgray;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="du-port">
+                            <div class="single-img"><img class="siximages" src="fred.png" alt="Bedroom Image" height="130" width="200">
+                                <div>
+                                    <h2>Hotel du port</h2>
+                                    <p>Night starting at <strong>52€</strong></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="les-mouettes">
+                            <div class="single-img"><img class="siximages" src="mouettes.png" alt="Bedroom Image" height="130" width="200">
+                                <div>
+                                    <h2>Les mouettes hotel</h2>
+                                    <p>Night starting at <strong>76€</strong></p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star" style="color: lightgray;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="img_area2">
+                    <a href="">
+                        <div class="single-img"><img class="siximages" src="mer.png" alt="Bedroom Image" height="130" width="200">
+                            <div>
+                                <h2>Hotel de la mer</h2>
+                                <p>Night starting at <strong>46€</strong></p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" style="color: lightgray;"></i>
+                                <i class="fas fa-star" style="color: lightgray;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="single-img"><img class="siximages" src="panier.png" alt="Bedroom Image" height="130" width="200">
+                            <div>
+                                <h2>Auberge Le Panier</h2>
+                                <p>Night starting at <strong>23€</strong></p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" style="color: lightgray;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div>
+                            <div class="single-img"><img class="siximages" src="amina.png" alt="Bedroom Image" height="130" width="200">
+                                <div> 
+                                    <h2>Hotel chez Amina</h2>
+                                    <p>Night starting at <strong>96€</strong></p> 
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a href="">
+                    <h3>Show more</h3>
+                </a>
             </div>
-            <div class="img_area2">
-            <a href="">
-            <div class="single-img"><img src="mer.png" alt="Bedroom Image" height="130" width="200"></div>
-                <h2>Hotel de la mer</h2>
-                <p>Night starting at <strong>46€</strong></p>
-                <i class="fas fa-star"></i>
-            </a>
-            <a href="">
-                <div class="single-img"><img src="panier.png" alt="Bedroom Image" height="130" width="200"></div>
-                <h2>Auberge Le Panier</h2>
-                <p>Night starting at <strong>23€</strong></p>
-                <i class="fas fa-star"></i>
-            </a>
-            <a href=""><div>
-                <div class="single-img"><img src="amina.png" alt="Bedroom Image" height="130" width="200"></div>
-                <h2>Hotel chez Amina</h2>
-                <p>Night starting at <strong>96€</strong></p> 
-                
-                <i class="fas fa-star"></i>
-            </div></a>
-        </div><a href="">
-            <h3>Show more</h3>
-        </a>
+            <div class="img_area3">
+                <h2>Most Popular <i id="chart" class="fas fa-chart-line"></i></h2>
+                <a href="">
+                    <div class="morning_sun">
+                        <div class="single-imgtwo"><img src="morning_sun.png" alt="Bedroom Image" height="130" width="200">
+                            <h2>Morning sun hotel</h2>
+                            <p>Night starting at <strong>128€</strong></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="au-coueur">
+                        <div class="single-imgtwo"><img src="couer.png" alt="Bedroom Image" height="130" width="200">
+                            <h2>Au couer de l'eau Bed <br> and Breakfast</h2>
+                            <p>Night starting at <strong>71€</strong></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="tout-bleu">
+                        <div class="single-imgtwo"><img src="tout.png" alt="Bedroom Image" height="130" width="200">
+                            <h2>Tout bleu et Blanc Hotel</h2>
+                            <p>Night starting at <strong>68€</strong></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" style="color: lightgray;"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="img_area3">
-        <h2>Most Popular <i class="fas fa-chart-line"></i></h2>
-        <a href="">
-        <div class="morning_sun">
-            <div class="single-imgtwo"><img src="morning_sun.png" alt="Bedroom Image" height="130" width="200">
-            <h2>Morning sun hotel</h2>
-            <p>Night starting at <strong>128€</strong></p>
-            <i class="fas fa-star"></i></div>
-        </div></a>
-        <a href="">
-        <div class="au-coueur">
-            <div class="single-imgtwo"><img src="couer.png" alt="Bedroom Image" height="130" width="200">
-                <h2>Au couer de l'eau Bed <br> and Breakfast</h2>
-                <p>Night starting at <strong>71€</strong></p>
-                <i class="fas fa-star"></i></div>
-        </div></a>
-        <a href="">
-        <div class="tout-bleu">
-            <div class="single-imgtwo"><img src="couer.png" alt="Bedroom Image" height="130" width="200">
-                <h2>Tout bleu et Blanc Hotel</h2>
-                <p>Night starting at <strong>68€</strong></p>
-                <p><i class="fas fa-star"></i></p></div>
-        </div></a>
-      </div></div></div>
-      <section>
-          <div class="activitycontainer">
-              <div>
-        <img src="oldport.png" alt="Activities" height="320" width="200">
-        <h2>Old port</h2>
-          </div></div>
+    <h2 id="act">Activities in Marseille</h2>
+    <section>
+        <div class="activitycontainer">
+            <div id="oldportdiv">
+                <img id="oldportpic" src="oldport.png" alt="Activities" height="320" width="240">
+                <h2>Old port</h2>
+            </div>
+        </div>
         <div>  
-        <div id="pomisland">
-        <img src="pomegues.png" alt="Activities" height="130" width="200">
-        <h2>Pomegues Fort</h2>
-        </div>
-        <div>
-        <img src="frioul.png" alt="Activities" height="130" width="200">
-        <h2>Frioul Island</h2>
-        </div></div>
-        <div>
-        <img src="calanques.png" alt="Activities" height="320" width="200">
-        <h2>Calanques National Park</h2>
-        </div>
-        <div id="notrechamp"><div>
-        <img src="notredame.png" alt="Activities" height="130" width="200">
-        <h2>Notre-Dame-de-la-Garde</h2>
-        </div>
-        <div>
-        <img src="longchamp.png" alt="Activities" height="130" width="200">
-        <h2>Longchamp Park</h2>
-    </div></div>
-      </section>
-<footer>
-    <ul id="leftfooter">     
-        <a href=""><h1>About</h1></a>
-        <a href=""><li>Site Map</li></a>
-        <a href=""><li>General Terms and Conditions</li></a>
-        <a href=""><li>Data and Privacy</li></a>
-    </ul>
-   <ul>
-    <a href=""><h1>Our Accomodations</h1></a>
-        <a href=""><li>Quality Assessment</li></a>
-        <a href=""><li>You have a hotel?</li></a>
-    </ul>
-    <ul id="rightfoot">
-        <a href=""><h1>Assistance</h1></a>
-        <a href=""><li>Help Desk</li></a>
-        <a href=""><li>Contact Us</li></a>
-    </ul>
-</footer>
-</body>
-</html>
+            <div id="pomisland">
+                <img src="pomegues.png" alt="Activities" height="130" width="200">
+                <h2>Pomegues Fort</h2>
+            </div>
+            <div>
+                <div id="frioul">
+                    <img src="frioul.png" alt="Activities" height="130" width="200">
+                    <h2>Frioul Island</h2></div>
+                </div>
+            </div>
+            <div id="calanques">
+                <img src="calanques.png" alt="Activities" height="320" width="240">
+                <h2>Calanques National Park</h2>
+            </div>
+            <div id="notrechamp">
+            <div id="notre">
+                <img src="notredame.png" alt="Activities" height="130" width="200">
+                <h2>Notre-Dame-de-la-Garde</h2>
+            </div>
+            <div>
+                <div id="long">
+                    <img src="longchamp.png" alt="Activities" height="130" width="200">
+                    <h2>Longchamp Park</h2>
+                </div>
+            </div></div>
+        </section>
+        <footer>
+            <ul id="leftfooter">     
+                <a href=""><h1>About</h1></a>
+                <a href=""><li>Site Map</li></a>
+                <a href=""><li>General Terms and Conditions</li></a>
+                <a href=""><li>Data and Privacy</li></a>
+            </ul>
+            <ul>
+                <a href=""><h1>Our Accomodations</h1></a>
+                <a href=""><li>Quality Assessment</li></a>
+                <a href=""><li>You have a hotel?</li></a>
+            </ul>
+            <ul id="rightfoot">
+                <a href=""><h1>Assistance</h1></a>
+                <a href=""><li>Help Desk</li></a>
+                <a href=""><li>Contact Us</li></a>
+            </ul>
+        </footer>
+    </body>
+    </html>
