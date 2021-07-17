@@ -48,11 +48,10 @@ h1 {
     top: 12px;
     left: 10px;
 }
-.filtericons {
-  padding: 3px;
+.fa-lg {
   background-color: #DEEBFF;
   border-radius: 3rem;
-  width: 35px;
+  
 }
 #search_bar {
     display: flex;
@@ -78,7 +77,7 @@ h1 {
     height: 25px;
     width: 25px;
   } 
-  #lowcost {
+  .filteroptions {
     display: flex;
     text-decoration: none;
     border-style: solid;
@@ -87,33 +86,6 @@ h1 {
     border-radius: 3rem;
     height: 100%;
   }  
-  #family {
-    display: flex;
-    text-decoration: none;
-    border-style: solid;
-    border-color: #F2F2F2;
-    padding: 0.20%;
-    border-radius: 3rem;
-    height: 100%;
-  }
-  #romantic {
-    display: flex;
-    text-decoration: none;
-    border-style: solid;
-    border-color: #F2F2F2;
-    padding: 0.20%;
-    border-radius: 3rem;
-    height: 100%;
-  }
-  #pets {
-    display: flex;
-    text-decoration: none;
-    border-style: solid;
-    border-color: #F2F2F2;
-    padding: 0.20%;
-    border-radius: 3rem;
-    height: 100%;
-  }
   #Filters {    
     display: flex;     
     justify-content: center; 
@@ -265,11 +237,7 @@ h1 {
   }
 .fas {
   color: #0065FC;
-  height: 90%;
-  width: 1fr;
-  border-radius: 45%;
-  display: flex;
-  align-items: flex-end;
+  border-radius: 3rem;
 }
   body {
     background-color: darkslategrey;
@@ -279,16 +247,12 @@ h1 {
   }
   h2:hover {
     color: brown;
-    transform: scaleX(1.03);
     cursor: pointer;
-  }
-  #greystar {
-    color: coral;
   }
   #chart {
     color: black;
     position: relative;
-    left: 55%;
+    left: 11em;
   }
 /* dark blue = #0065FC
 font-family: 'Raleway', sans-serif;
