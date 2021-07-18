@@ -32,7 +32,9 @@ header {
     text-decoration: none;
 }
 h1 {
+  display: inline-flex;
   font-size: medium;
+  color: black;
 }
 #pin {
     position: relative;
@@ -117,7 +119,7 @@ h1 {
     background-color: #F2F2F2;
     padding: 2%;
     margin: 2% 1% 3% 4%;
-    border-radius: 4%;
+    border-radius: 2rem;
     width: 70%;
   }
   .imageonediv {
@@ -125,24 +127,30 @@ h1 {
   }
   .img_area {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+    margin: 1% 1% 1% 1%;
   }
   .img_area2 {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+    margin: 1% 1% 1% 1%;
+    position:relative;
+    top: 1rem;
   }
   .siximages {
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     width: 100%;
+  }
+  .threeimages {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
   .img_area3 {
     display: flex;
@@ -162,18 +170,29 @@ h1 {
     
   }
   .single-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: white;
-    border-radius: 2rem;
-    width: 100%;
-    padding: 1% 1% 6% 1%;
-    margin: 8%;
+    padding: 1.53%;
+    border-radius: 1rem;
+    width: 16.6em;
+    height: 16.7em;
+  }
+  .imagestextone {
+    margin: 2%;
+    
   }
   .single-imgtwo {
     background-color: white;
-    border-top-left-radius: 3%;
-    border-bottom-left-radius: 3%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     padding: 8px 2px 5px 5px;
     margin: 8%;
+  }
+  #show_more {
+    position: relative;
+    top: 35px;
   }
   section {
     display: flex;
@@ -193,10 +212,35 @@ h1 {
     width: 100%em;
     border-radius: 0rem;
   }
+  #pomegues {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  #frioulpic {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  #calanquespic {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+  }
+  #notrepic {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+  }
+  #longchamppic {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+  }
   #act {
     float: initial;
   }
   #pomisland {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -207,24 +251,26 @@ h1 {
   }
   #calanques {
     background-color: white;
+    border-radius: 1rem;
+    width: 20em;
   }
   #notrechamp {
+    border-radius: 2rem;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 15rem;
   }
   #notre {
     background-color: white;
   }
+
   #long {
     background-color: white;
   }
   img:hover {
     opacity: .8;
-  }
-  img {
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
   }
   footer {
     background-color: #F2F2F2;
@@ -252,6 +298,9 @@ h1 {
   }
   a {
     text-decoration: none;
+  }
+  h3 {
+    color: black;
   }
 .fas {
   color: #0065FC;
