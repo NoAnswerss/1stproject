@@ -143,11 +143,15 @@ h1 {
   .imageonediv {
     border-top: 3rem;
   }
+  .cardtext {
+    
+  }
   .img_area {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: max-content;
     width: 100%;
     margin: 1% 1% 1% 1%;
   }
