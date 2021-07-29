@@ -1,5 +1,7 @@
 #flexbox-containers {
     display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
     margin: 1%;
     position: relative;
 }
@@ -15,7 +17,8 @@ header {
     align-items: center;
 }
 #logopng {
-  margin-left: 2%;
+  height: 3rem;
+  margin-left: 35%;
 }
 #toppage {
   margin-left: 2%;
@@ -123,6 +126,7 @@ h1 {
     text-decoration: none;    
   }
   #p_accomodations {
+    margin-left: 1%;
     font-weight: bolder;
     margin-bottom: 35px;
   }
@@ -177,7 +181,6 @@ h1 {
     padding: 2%;
   }
   .threeimages {
-    height: 10rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
   }
