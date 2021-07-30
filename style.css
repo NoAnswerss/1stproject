@@ -255,6 +255,8 @@ h1 {
     margin-left: -1%;
   }
   #oldportpic {
+    height: 600px;
+    width: 25em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
@@ -269,6 +271,7 @@ h1 {
   }
   #calanquespic {
     height: 600px;
+    width: 25em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
@@ -354,7 +357,6 @@ h1 {
     color: black;
   }
   h2:hover {
-    color: brown;
     cursor: pointer;
   }
   #chart {
