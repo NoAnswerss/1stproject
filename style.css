@@ -238,21 +238,20 @@ h1 {
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
-    padding: 2%;
-    width: 97%;
+    width: 100%;
+    margin-bottom: 4%;
   }
   .oldportdiv {
     background-color: white;    
     border-radius: 1rem;
-    padding: 0;
     border-bottom-style: solid;
     border-color: #F2F2F2;
-    margin-left: -1%;
   }
   #pom {
     margin-left: -1%;
   }
   #notres {
+    height: max-content;
     margin-left: -1%;
   }
   #oldportpic {
@@ -269,6 +268,7 @@ h1 {
     padding-bottom: 3%;
   }
   #calanquespic {
+    height: 600px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
