@@ -224,11 +224,6 @@ h1 {
     margin: 5%;
     height: 85%;
   }
-  @media (min-width: 1000px) {
-    .single-img {
-      font-size: 0.95rem;
-    }
-  }
   #show_more {
     position: relative;
     top: 35px;
@@ -241,7 +236,7 @@ h1 {
     width: 100%;
     margin-bottom: 4%;
   }
-  .oldportdiv {
+  .oldportdiv { 
     background-color: white;    
     border-radius: 1rem;
     border-bottom-style: solid;
@@ -251,35 +246,40 @@ h1 {
     margin-left: -1%;
   }
   #notres {
-    height: max-content;
     margin-left: -1%;
   }
   #oldportpic {
-    height: 600px;
-    width: 25em;
+    width: 27em;
+    height: 34em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
   #pomegues {
+    width: 27em;
+    height: 15em;
     border-top-left-radius: 1rem; 
     border-top-right-radius: 1rem;
   }
   #frioulpic {
+    width: 27em;
+    height: 12em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     padding-bottom: 3%;
   }
   #calanquespic {
-    height: 600px;
-    width: 25em;
+    width: 27em;
+    height: 34em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
   #notrepic {
+    width: 27em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
   #longchamppic {
+    width: 27em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
