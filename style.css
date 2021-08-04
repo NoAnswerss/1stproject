@@ -141,7 +141,7 @@ h1 {
     flex-direction: row;
     background-color: white;
     height: 100%;
-    width: 100%;
+    
   }
   .hotels_top {
     background-color: #F2F2F2;
@@ -161,22 +161,26 @@ h1 {
   }
   .img_area {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
-    height: max-content;
     width: 100%;
     margin: 1% 1% 1% 1%;
   }
   .img_area2 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin: 1% 1% 1% 1%;
-    position: relative;
-    top: 1rem;
+    justify-content: flex-start;
+  }
+  .img_area33 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
   }
   .siximages {
     border-top-left-radius: 1rem;
@@ -215,7 +219,7 @@ h1 {
     margin-left: 1.5rem;
     background-color: white;
     border-radius: 1rem;
-    width: 16em;
+    width: 17em;
   }
   .imagestextone {
     margin: 2%;
