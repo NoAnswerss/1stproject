@@ -136,12 +136,12 @@ h1 {
   }
   #imagewrapper {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: flex-start;
     flex-direction: row;
     background-color: white;
-    margin-left: -2%;
     height: 100%;
+    width: 100%;
   }
   .hotels_top {
     background-color: #F2F2F2;
@@ -364,7 +364,6 @@ h1 {
   h2:hover {
     cursor: pointer;
   } 
-  IGNOREIGNOREIGNOREIGNOREIGNOREIGNOREIGNOREIGNORE
   .mostpop {                                       
     display: flex;    
     flex-direction: row;
@@ -372,7 +371,6 @@ h1 {
   #chart {
     color: black;
   }
-  IGNOREIGNOREIGNOREIGNOREIGNOREIGNOREIGNOREIGNORE
   p {                                   
     color: black;
   }
