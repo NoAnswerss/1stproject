@@ -130,6 +130,7 @@ h1 {
     text-decoration: none;    
   }
   #p_accomodations {
+    position: absolute;
     margin-left: 1%;
     font-weight: bolder;
     margin-bottom: 35px;
@@ -141,7 +142,6 @@ h1 {
     flex-direction: row;
     background-color: white;
     height: 100%;
-    
   }
   #hotels_top {
     display: flex;
