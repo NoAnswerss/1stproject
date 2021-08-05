@@ -130,7 +130,7 @@ h1 {
     text-decoration: none;    
   }
   #p_accomodations {
-    position: absolute;
+    position: relative;
     margin-left: 1%;
     font-weight: bolder;
     margin-bottom: 35px;
@@ -245,11 +245,11 @@ h1 {
     border-top-right-radius: 1rem;
   }
   #frioulpic {
+    margin-top: 2.1%;
     width: 27em;
     height: 12em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    padding-bottom: 3%;
   }
   #calanquespic {
     width: 27em;
