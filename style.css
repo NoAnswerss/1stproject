@@ -137,18 +137,17 @@ h1 {
   }
   #imagewrapper {
     display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-start;
-    flex-direction: row;
     background-color: white;
     height: 100%;
   }
   #hotels_top {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     background-color: #F2F2F2;
     border-radius: 1rem;
+    width: 65em;
   }
   .imageonediv {
     border-top: 3rem;
@@ -245,11 +244,11 @@ h1 {
     border-top-right-radius: 1rem;
   }
   #frioulpic {
-    margin-top: 2.1%;
     width: 27em;
     height: 12em;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    padding-bottom: 3%;
   }
   #calanquespic {
     width: 27em;
