@@ -143,8 +143,7 @@ h1 {
   #hotels_top {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     background-color: #F2F2F2;
     border-radius: 1rem;
     width: 65em;
