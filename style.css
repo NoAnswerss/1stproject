@@ -136,21 +136,20 @@ h1 {
     margin-bottom: 35px;
   }
   #imagewrapper {
-    display: flex;
     background-color: white;
   }
   #flexwrapperone {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
   }
   #hotels_top {
+    display: flex;
+    flex: 10 5 400px;
     background-color: #F2F2F2;
     border-radius: 1rem;
-    width: 65%;
-    height: 100%;
   }
   .imageonediv {
     border-top: 3rem;
@@ -178,20 +177,14 @@ h1 {
     left: 5%;
   }
   .img_area3 {
-    padding-top: 2%;
     padding-left: 1%;
     margin: 2% 1% 3% 2%;
     border-radius: 1rem;
-    width: 35%;
-    height: fit-content;
+    width: 45em;
     background-color: #F2F2F2;
   }
   #mostpop {
-    position: relative;
-    left: 5%;
-    bottom: initial;
-    top: initial;
-    right: inherit;
+    margin-left: 1.8em;
   }
   .single-img {
     margin-bottom: .5rem;
@@ -220,7 +213,7 @@ h1 {
   .activsection {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 1rem;
   }
   .oldportdiv { 
@@ -352,6 +345,8 @@ h1 {
   }
   #chart {
     color: black;
+    position: relative;
+    left: 19em;
   }
   p {                                   
     color: black;
