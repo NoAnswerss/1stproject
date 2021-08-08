@@ -166,6 +166,8 @@ h1 {
     padding: 2%;
   }
   .threeimages {
+    height: 8em;
+    width: 8em;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
   }
@@ -192,9 +194,6 @@ h1 {
     background-color: white;
     border-radius: 1rem;
     width: 17em;
-  }
-  .imagestextone {
-    margin: 2%;
   }
   .single-imgtwo {
     display: flex;
