@@ -130,8 +130,8 @@ h1 {
     text-decoration: none;    
   }
   #p_accomodations {
-    position: relative;
-    left: 3em;
+    display: block;
+    width: 100%;
   }
   #imagewrapper {
     display: flex;
