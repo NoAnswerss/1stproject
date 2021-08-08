@@ -135,20 +135,18 @@ h1 {
   }
   #imagewrapper {
     display: flex;
+    flex-wrap: wrap-reverse;
+    height: 100%;
     background-color: white;
-  }
-  #flexwrapperone {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;
   }
   #hotels_top {
     display: flex;
-    flex: 10 5 400px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: #F2F2F2;
     border-radius: 1rem;
+    width: 65em;
   }
   .imageonediv {
     border-top: 3rem;
@@ -178,8 +176,7 @@ h1 {
     left: 5%;
   }
   .img_area3 {
-    padding-left: 1%;
-    margin: 2% 1% 3% 2%;
+    margin-left: 2em;
     border-radius: 1rem;
     width: 45em;
     background-color: #F2F2F2;
