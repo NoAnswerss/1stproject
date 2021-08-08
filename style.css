@@ -131,11 +131,10 @@ h1 {
   }
   #p_accomodations {
     position: relative;
-    margin-left: 1%;
-    font-weight: bolder;
-    margin-bottom: 35px;
+    left: 3em;
   }
   #imagewrapper {
+    display: flex;
     background-color: white;
   }
   #flexwrapperone {
