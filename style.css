@@ -1,20 +1,21 @@
 #flexbox-containers {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin: 1%;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-left: 2em;
+  margin-right: 3.4em;
+  position: relative;
 }
 #flexbox-containers :hover {
-   transform: scaleX(1.021);
+  transform: scaleX(1.021);
 }
 html {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #logopng {
   height: 3rem;
@@ -24,24 +25,24 @@ header {
   margin-left: 2%;
 }
 #accomodations {
-    width: 200px;
-    color: #0065FC;
-    text-decoration: none;
+  width: 200px;
+  color: #0065FC;
+  text-decoration: none;
 }
 #activities {
-    width: 120px;
-    color: grey;
-    text-decoration: none;
+  width: 120px;
+  color: grey;
+  text-decoration: none;
 }
 #activ {
   position: sticky;
   margin-left: 1em;
 }
 #sign_up {
-    width: 80px;
-    color: #0065FC;
-    font-weight: bold;
-    text-decoration: none;
+  width: 80px;
+  color: #0065FC;
+  font-weight: bold;
+  text-decoration: none;
 }
 h1 {
   display: inline-flex;
@@ -49,18 +50,17 @@ h1 {
   color: black;
 }
 #pin {
-    position: relative;
-    background-color:#F2F2F2 ;
-    height: 46px;
-    width: 35px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+  position: relative;
+  background-color:#F2F2F2 ;
+  height: 46px;
+  width: 35px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
-
 #location_pin {
-    position: relative;
-    top: 12px;
-    left: 10px;
+  position: relative;
+  top: 12px;
+  left: 10px;
 }
 .fa-xs {
   color: #0065FC;
@@ -77,304 +77,307 @@ h1 {
   font-weight: bold;
 }
 #search_bar {
-    margin: 2%;
-    display: flex;
-    border: thin #F2F2F2;    
+  margin: 2%;
+  display: flex;
+  border: thin #F2F2F2;    
 }
 #search {
-    height: 40px;
-    margin-left: 1px;
+  height: 40px;
+  margin-left: 1px;
 }
-  #filtersdiv :hover {
-    transform: scaleX(1.021)
-  }
-  .filtertext {
-    color: black;
-    margin-left: 4px;
-    margin-right: 4px;
-    position: relative;
-    bottom: 6px;
-    padding: 12px;
-  }
-  #filtersdiv {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 1.3%;
-    margin: 2%;
-  }
-  i {
-    height: 25px;
-    width: 25px;
-  } 
-  #city {
-    margin-left: 4.2%;
-  }
-  .filteroptions {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-decoration: none;
-    border-style: solid;
-    border-left-style: hidden;
-    border-radius: 2rem;
-    border-color: #F2F2F2;
-    height: 2.4em;
-  }  
-  #Filters {    
-    display: flex;     
-    color: black;
-    justify-content: center; 
-    text-decoration: none;    
-  }
-  #p_accomodations {
-    display: block;
-    width: 100%;
-  }
-  #imagewrapper {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    height: 100%;
-    background-color: white;
-  }
-  #hotels_top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #F2F2F2;
-    border-radius: 1rem;
-    width: 65em;
-  }
-  .imageonediv {
-    border-top: 3rem;
-  }
-  .cardtext {
-    font-size: 95%;
-    font-weight: bolder;
-  }
-  .siximages {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    height: 8em;
-    width: 96%;
-    padding: 2%;
-  }
-  .threeimages {
-    height: 8em;
-    width: 8em;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-  span {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: flex-start;
-    left: 5%;
-  }
-  .img_area3 {
-    margin-left: 2em;
-    border-radius: 1rem;
-    width: 45em;
-    background-color: #F2F2F2;
-  }
-  #mostpop {
-    margin-left: 1.8em;
-  }
-  .single-img {
-    margin-bottom: .5rem;
-    margin-left: 1.5rem;
-    background-color: white;
-    border-radius: 1rem;
-    width: 17em;
-  }
-  .single-imgtwo {
-    display: flex;
-    background-color: white;
-    border-radius: 1rem;
-    padding: 8px 2px 5px 5px;
-    margin: 5%;
-  }
-  #show_more {
-    position: relative;
-    top: 35px;
-  }
-  section {
-    margin-bottom: 4%;
-  }
-  .activsection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-  }
-  .oldportdiv { 
-    background-color: white;    
-    border-radius: 1rem;
-    border-bottom-style: solid;
-    border-color: #F2F2F2;
-  }
-  #pom {
-    margin-left: -1%;
-  }
-  #notres {
-    margin-left: -1%;
-  }
-  #oldportpic {
-    width: 27em;
-    height: 34em;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-  #pomegues {
-    width: 27em;
-    height: 15em;
-    border-top-left-radius: 1rem; 
-    border-top-right-radius: 1rem;
-  }
-  #frioulpic {
-    width: 27em;
-    height: 12em;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    padding-bottom: 3%;
-  }
-  #calanquespic {
-    width: 27em;
-    height: 34em;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-  #notrepic {
-    width: 27em;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-  #longchamppic {
-    width: 27em;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-  #act {
-    float: initial;
-  }
-  #pomisland {
-    background-color: white;    
-    border-radius: 1rem;
-    margin-bottom: 10%;
-    border-bottom-style: solid;
-    border-color: #F2F2F2;
-  }
-  #frioul {
-    background-color: white;    
-    border-radius: 1rem;
-    padding: 0;
-    border-bottom-style: solid;
-    border-color: #F2F2F2;
-  }
-  #notre {
-    background-color: white;    
-    border-radius: 1rem;
-    margin-bottom: 10%;
-    border-bottom-style: solid;
-    border-color: #F2F2F2;
-  }
-  #long {
-    height: 100%;
-    padding-top: 3%;
-    background-color: white;    
-    border-radius: 1rem;
-    border-bottom-style: solid;
-    border-color: #F2F2F2;
-  }
-  .cardsectiontext {
-    text-align: start;
-    font-size: medium;
-    font-weight: bolder;
-    margin-left: 5%;
-  }
-  footer {
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
-    width: 100%;
-  }
-  #leftfooter {
-    nav-down: auto;
-  }
-  #rightfoot {
-    margin-right: 25%;
-  }
-  ul {
-    background-color: #F2F2F2;
-    list-style: none;
-    height: 10em;
-  }
-  li {
-    color: black;
-    margin: 15px 8px 8px 8px;
-  }
-  a {
-    text-decoration: none;
-  }
-  h3 {
-    color: black;
-  }
-  body {
-    background-color: white;
-  }
-  h2 {
-    color: black;
-  }
-  h2:hover {
-    cursor: pointer;
-  } 
-  .mostpop {                                       
-    display: flex;    
-    flex-direction: row;
-  }
-  #chart {
-    color: black;
-    position: relative;
-    left: 19em;
-  }
-  p {                                   
-    color: black;
-  }
-  .fas {
-    color: #0065FC;
-  }
-  .fa-sm {
-    height: min-content;
-    width: 15px;
-    padding: 3px;
-    border-style: solid;
-    border-radius: 3rem;
-    border-color: #F2F2F2;
-  }
-  .allstars {
-    display: inline-flex;
-    font-size: small;
-    width: 25%;
-  }
-  
+#filtersdiv :hover {
+  transform: scaleX(1.021)
+}
+.filtertext {
+  color: black;
+  margin-left: 4px;
+  margin-right: 4px;
+  position: relative;
+  bottom: 6px;
+  padding: 12px;
+}
+#filtersdiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.3%;
+  margin: 2%;
+}
+i {
+  height: 25px;
+  width: 25px;
+} 
+#city {
+  margin-left: 4.2%;
+}
+.filteroptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  border-style: solid;
+  border-left-style: hidden;
+  border-radius: 2rem;
+  border-color: #F2F2F2;
+  height: 2.4em;
+}  
+#Filters {    
+  display: flex;     
+  color: black;
+  justify-content: center; 
+  text-decoration: none;    
+}
+#p_accomodations {
+  display: block;
+  width: 100%;
+}
+#imagewrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-left: 2em;
+  margin-right: 2em;
+  background-color: white;
+}
+.imageonediv {
+  border-top: 3rem;
+}
+.cardtext {
+  font-size: 95%;
+  font-weight: bolder;
+}
+.siximages {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 8em;
+  width: 96%;
+  padding: 2%;
+}
+.popular_images {
+  width: 10em;
+  height: 10em;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.popularcards {
+  display: block;
+  text-align: left;
+  margin-left: 2em;
+}
+.popularcontainer {
+  display: block;
+  margin-left: 2em;
+  border-radius: 1rem;
+  background-color: #F2F2F2;
+  width: 35%;
+}
+.accomodations_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+  border-radius: 1rem;
+  width: 60%;
+}
+.accomodations_images {
+  width: 16em;
+  height: 10em;
+  background-color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin: 1%;
+}
+.accomodations_cards {
+  background-color: white;
+  border-radius: 1rem;
+  width: 16em;
+  height: min-content;
+}
+.popular_column {
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 8px 2px 5px 5px;
+  margin: 5%;
+}
+#show {
+  position: absolute;
+}
+.activities_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.activsection {
+  display: flex;
+  flex-direction: row;
+}
+.tall_cards { 
+  width: 50px;
+  height: 50px;
+  background-color: white;    
+  border-radius: 1rem;
+  border-bottom-style: solid;
+  border-color: #F2F2F2;
+}
+#pomisland {
+  width: 50px;
+  height: 50px;
+  background-color: white;    
+  border-radius: 1rem;
+  border-bottom-style: solid;
+  border-color: #F2F2F2;
+}
+#frioul {
+  width: 50px;
+  height: 50px;
+  background-color: white;    
+  border-bottom-style: solid;
+  border-color: #F2F2F2;
+}
+#notre {
+  width: 50px;
+  height: 50px;
+  background-color: white;    
+  border-bottom-style: solid;
+  border-color: #F2F2F2;
+}
+#long {
+  width: 50px;
+  height: 50px;
+  background-color: white;    
+  border-radius: 1rem;
+  border-bottom-style: solid;
+  border-color: #F2F2F2;
+}
+#oldport_picture {
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+#pomegues_picture {
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 1rem; 
+  border-top-right-radius: 1rem;
+}
+#frioul_picture {
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+#calanques_picture {
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+#notre_picture {
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+#longchamp_picture {
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+#act {
+  float: initial;
+}
+.cardsectiontext {
+  text-align: start;
+  font-size: medium;
+  font-weight: bolder;
+  margin-left: 5%;
+}
+footer {
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+}
+#leftfooter {
+  nav-down: auto;
+}
+#rightfoot {
+  margin-right: 25%;
+}
+ul {
+  background-color: #F2F2F2;
+  list-style: none;
+  height: 10em;
+}
+li {
+  color: black;
+  margin: 15px 8px 8px 8px;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  color: black;
+}
+body {
+  background-color: white;
+}
+h2 {
+  color: black;
+}
+h2:hover {
+  cursor: pointer;
+} 
+.mostpop {                                       
+  display: flex;    
+  flex-direction: row;
+}
+#chart {
+  color: black;
+  position: relative;
+  left: 19em;
+}
+p {                                   
+  color: black;
+}
+.fas {
+  color: #0065FC;
+}
+.fa-sm {
+  height: min-content;
+  width: 15px;
+  padding: 3px;
+  border-style: solid;
+  border-radius: 3rem;
+  border-color: #F2F2F2;
+}
+.allstars {
+  display: inline-flex;
+  font-size: small;
+  width: 25%;
+}
+
 /* dark blue = #0065FC
 font-family: 'Raleway', sans-serif;
 background-color: #F2F2F2
 /* 
-  a:hover {
-    color: red;
-    transform: scaleX(1.021);
-  }
-  filtersdiv :hover {
-    color: red;
-    transform: scaleX(1.021)
-  }
-  a {
-    text-decoration: none;
-  }
+a:hover {
+  color: red;
+  transform: scaleX(1.021);
+}
+filtersdiv :hover {
+  color: red;
+  transform: scaleX(1.021)
+}
+a {
+  text-decoration: none;
+}
