@@ -256,35 +256,35 @@ i {
 }
 .tall_pictures {
   object-fit: cover;
-  width: 370px;
+  width: 400px;
   height: 460px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 #pomegues_picture {
   object-fit: cover;
-  width: 370px;
+  width: 400px;
   height: 210px;
   border-top-left-radius: 1rem; 
   border-top-right-radius: 1rem;
 }
 #frioul_picture {
   object-fit: cover;
-  width: 370px;
+  width: 400px;
   height: 150px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 #notre_picture {
   object-fit: cover;
-  width: 370px;
+  width: 400px;
   height: 180px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 #longchamp_picture {
   object-fit: cover;
-  width: 370px;
+  width: 400px;
   height: 180px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
