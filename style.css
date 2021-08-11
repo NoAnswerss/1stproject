@@ -212,7 +212,9 @@ i {
   margin-bottom: 1rem;
   width: 100%;
 }
-.activsection {
+/* Resize all images and divs to match mock-up
+*/
+.activities_container {
   display: flex;
   flex-direction: row;
 }
@@ -381,3 +383,5 @@ filtersdiv :hover {
 a {
   text-decoration: none;
 }
+11.08.2021 
+Restructured page
