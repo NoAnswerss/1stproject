@@ -182,14 +182,15 @@ i {
   width: 60%;
 }
 .accomodations_images {
-  width: 16em;
-  height: 10em;
+  width: 250px;
+  height: 110px;
   background-color: white;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin: 1%;
 }
 .accomodations_cards {
+  margin-left: 2%;
   background-color: white;
   border-radius: 1rem;
   width: 16em;
