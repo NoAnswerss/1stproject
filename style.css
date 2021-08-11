@@ -217,73 +217,68 @@ i {
 .activities_container {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  width: 100%;
 }
 .tall_cards { 
-
   background-color: white;    
   border-radius: 1rem;
   border-bottom-style: solid;
   border-color: #F2F2F2;
 }
 #pomisland {
-  width: 50px;
-  height: 50px;
   background-color: white;    
   border-radius: 1rem;
   border-bottom-style: solid;
   border-color: #F2F2F2;
 }
 #frioul {
-  width: 50px;
-  height: 50px;
   background-color: white;    
   border-bottom-style: solid;
   border-color: #F2F2F2;
 }
 #notre {
-  width: 50px;
-  height: 50px;
   background-color: white;    
   border-bottom-style: solid;
   border-color: #F2F2F2;
 }
 #long {
-  width: 50px;
-  height: 50px;
   background-color: white;    
   border-radius: 1rem;
   border-bottom-style: solid;
   border-color: #F2F2F2;
 }
 .tall_pictures {
-  width: 50px;
-  height: 50px;
+  object-fit: cover;
+  width: 450px;
+  height: 800px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 #pomegues_picture {
-  width: 50px;
-  height: 50px;
+  object-fit: cover;
+  width: 450px;
+  height: 270px;
   border-top-left-radius: 1rem; 
   border-top-right-radius: 1rem;
 }
 #frioul_picture {
-  width: 50px;
-  height: 50px;
+  object-fit: cover;
+  width: 450px;
+  height: 220px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 #notre_picture {
-  width: 50px;
-  height: 50px;
+  object-fit: cover;
+  width: 450px;
+  height: 250px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 #longchamp_picture {
-  width: 50px;
-  height: 50px;
+  object-fit: cover;
+  width: 450px;
+  height: 250px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
