@@ -96,7 +96,7 @@ h1 {
   bottom: 6px;
   padding: 12px;
 }
-#filtersdiv {
+#filters_container {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -154,13 +154,20 @@ i {
   width: 96%;
   padding: 2%;
 }
+.popular_cards {
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 3% 3% 3% 3%;
+  width: 450px;
+}
 .popular_images {
-  width: 10em;
-  height: 10em;
+  width: 130px;
+  height: 130px;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-.popularcards {
+.popular_text {
   display: block;
   text-align: left;
   margin-left: 2em;
@@ -170,7 +177,7 @@ i {
   margin-left: 2em;
   border-radius: 1rem;
   background-color: #F2F2F2;
-  width: 35%;
+  width: 28%;
 }
 .accomodations_container {
   display: flex;
@@ -195,13 +202,6 @@ i {
   border-radius: 1rem;
   width: 16em;
   height: min-content;
-}
-.popular_column {
-  display: flex;
-  background-color: white;
-  border-radius: 1rem;
-  padding: 8px 2px 5px 5px;
-  margin: 5%;
 }
 #show {
   position: absolute;
