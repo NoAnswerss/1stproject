@@ -36,7 +36,7 @@ header {
 }
 #activ {
   position: sticky;
-  margin-left: 1.4em;
+  margin-left: 1.6em;
 }
 #sign_up {
   width: 80px;
@@ -144,12 +144,9 @@ i {
 .imageonediv {
   border-top: 3rem;
 }
-.accomodations_h3 {
-  font-weight: 900;
-}
-.accomodations_text_align {
-  margin-left: 4%;
-}
+
+/* Popular section */
+
 .popular_cards {
   display: flex;
   background-color: white;
@@ -174,6 +171,16 @@ i {
   background-color: #F2F2F2;
   width: 27%;
   min-width: 35vh;
+  flex-basis: 1;
+}
+
+/* Accomodations Section */
+
+.accomodations_h3 {
+  font-weight: 900;
+}
+.accomodations_text_align {
+  margin-left: 4%;
 }
 .accomodations_container {
   display: flex;
@@ -182,8 +189,9 @@ i {
   justify-content: space-between;
   background-color: #F2F2F2;
   border-radius: 1rem;
+  flex-basis: 1;
   width: 70%;
-  min-width: 35vh;
+  min-width: 45vh;
 }
 .accomodations_images {
   width: 280px;
@@ -206,19 +214,13 @@ i {
   margin-left: 5%;
   margin-bottom: 2%;
 }
-.activities_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-/* Resize all images and divs to match mock-up
-*/
+/* Activities section */
+
 .activities_container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
   width: 95%;
   margin: 0% 2% 3% 2%;
 }
@@ -333,13 +335,13 @@ h2 {
 h2:hover {
   cursor: pointer;
 } 
-.mostpop {                                       
-  display: flex;    
-  flex-direction: row;
+#mostpop {    
+  font-size: x-large;
+  font-weight: 1000;                              
+  margin: 5% 0% 0% 5%;
 }
 #chart {
   color: black;
-  position: relative;
 }
 p {                                   
   color: black;
