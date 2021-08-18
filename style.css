@@ -156,9 +156,10 @@ i {
 .popular_images {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  width: 170px;
-  height: 180px;
   margin: 4% 0% 2% 4%;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
 }
 .popular_text {
   display: table-column;
@@ -171,7 +172,7 @@ i {
   border-radius: 1rem;
   background-color: #F2F2F2;
   width: 27%;
-  min-width: 35vh;
+  min-width: 52vh;
 }
 
 /* Accomodations Section */
