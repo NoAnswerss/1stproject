@@ -144,35 +144,44 @@ i {
 .imageonediv {
   border-top: 3rem;
 }
-
 /* Popular section */
-
+#mostpop {    
+  font-size: x-large;
+  font-weight: bold;                              
+  margin-left: 2em;
+}
 .popular_cards {
   display: flex;
   background-color: white;
   border-radius: 1rem;
-  margin: 9% 4% 8% 4%;
+  margin: 2.7em 3em 1.5em 3em;
 }
 .popular_images {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  margin: 4% 0% 2% 4%;
+  margin: 0.4em 0em 0.4em 0.4em;
   object-fit: cover;
-  height: 200px;
-  width: 200px;
+  min-width: 145px;
+  max-width: 145px;
+  min-height: 145px;
+  max-height: 145px;
 }
 .popular_text {
   display: table-column;
   text-align: left;
-  margin: 0% 5% 4% 5%;
+  margin: 0em .5em .4em 1.5em;
 }
 .popularcontainer {
   display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
   margin-left: 2em;
   border-radius: 1rem;
   background-color: #F2F2F2;
-  width: 27%;
-  min-width: 52vh;
+  min-width: 53vh;
 }
 
 /* Accomodations Section */
@@ -190,13 +199,12 @@ i {
   justify-content: space-between;
   background-color: #F2F2F2;
   border-radius: 1rem;
-  flex-basis: 1;
   width: 70%;
   min-width: 45vh;
 }
 .accomodations_images {
-  width: 280px;
-  height: 110px;
+  min-width: 276px;
+  min-height: 110px;
   background-color: white;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -336,13 +344,10 @@ h2 {
 h2:hover {
   cursor: pointer;
 } 
-#mostpop {    
-  font-size: x-large;
-  font-weight: 1000;                              
-  margin: 5% 0% 0% 5%;
-}
 #chart {
   color: black;
+  position: absolute;
+  right: 90px;
 }
 p {                                   
   color: black;
@@ -379,5 +384,4 @@ filtersdiv :hover {
 a {
   text-decoration: none;
 }
-11.08.2021 
-Restructured page
+*/
