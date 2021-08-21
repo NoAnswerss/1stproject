@@ -141,7 +141,9 @@ i {
 .imageonediv {
   border-top: 3rem;
 }
+
 /* Popular section */
+
 #mostpop {    
   font-size: x-large;
   font-weight: bold;                              
@@ -198,8 +200,12 @@ i {
   margin-left: 2em;
   background-color: #F2F2F2;
   border-radius: 1rem;
-  min-width: 65%;
-  max-width: 65%;
+  width: 65%;
+}
+@media screen and (max-width:768px) {
+  .accomodations_container {
+    display: block;
+  }
 }
 .accomodations_images {
   background-color: white;
