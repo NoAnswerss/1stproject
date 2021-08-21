@@ -195,9 +195,6 @@ i {
   margin-left: 4%;
 }
 .accomodations_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   margin-left: 2em;
   background-color: #F2F2F2;
   border-radius: 1rem;
@@ -236,6 +233,11 @@ i {
   justify-content: space-between;
   width: 95%;
   margin: 0% 2% 3% 2%;
+}
+@media screen and (max-width:768px) {
+  .activities_container {
+    display: block;
+  }
 }
 .tall_cards { 
   background-color: white;    
@@ -310,6 +312,12 @@ i {
   font-weight: bolder;
   margin-left: 5%;
 }
+
+/* set width 100% 
+   display:block (optional)
+   object-fit: cover
+   aspect-ratio: 3 / 1 */
+
 footer {
   background-color: #F2F2F2;
   display: flex;
