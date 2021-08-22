@@ -134,9 +134,11 @@ i {
 #imagewrapper {
   display: flex;
   flex-wrap: wrap-reverse;
+  flex-direction: row;
   margin-left: 2em;
   margin-right: 2em;
   background-color: white;
+  width: 100%;
 }
 .imageonediv {
   border-top: 3rem;
@@ -154,16 +156,14 @@ i {
   background-color: white;
   border-radius: 1rem;
   margin: 2.7em 3em 1.5em 3em;
+  width: 80%;
 }
 .popular_images {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   margin: 0.4em 0em 0.4em 0.4em;
-  object-fit: cover;
-  min-width: 145px;
-  max-width: 145px;
-  min-height: 145px;
-  max-height: 145px;
+  aspect-ratio: 16 / 3;
+  width: 18%;
 }
 .popular_text {
   display: table-column;
@@ -172,17 +172,16 @@ i {
 }
 .popularcontainer {
   display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
   margin-left: 2em;
   border-radius: 1rem;
   background-color: #F2F2F2;
-  min-width: 53vh;
+  width: 30%;
 }
-
+@media screen and (max-width:768px) {
+  .popular_images {
+    min-width: 40%;
+  }
+}
 /* Accomodations Section */
 
 #p_accomodations {
@@ -200,12 +199,7 @@ i {
   margin-left: 2em;
   background-color: #F2F2F2;
   border-radius: 1rem;
-  width: 65%;
-}
-@media screen and (max-width:768px) {
-  .accomodations_container {
-    display: block;
-  }
+  width: 55%;
 }
 .accomodations_images {
   background-color: white;
@@ -213,21 +207,24 @@ i {
   border-top-right-radius: 1rem;
   padding: 1.3%;
   width: 100%;
+  aspect-ratio: 16 / 9;
 }
 .accomodations_cards {
   margin: 3em 5em 2em 5em;
   background-color: white;
   border-radius: 1rem;
-  min-width: 20em;
-  max-width: 20em;
-  max-height: 10em;
-  min-height: 10em;
+  width: 200px;
 }
 #show {
   display: block;
   position: relative;
   margin-left: 5%;
   margin-bottom: 2%;
+}
+@media screen and (max-width:768px) {
+  .accomodations_container {
+    display: block;
+  }
 }
 /* Activities section */
 
@@ -310,6 +307,11 @@ i {
   height: 180px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+@media screen and (max-width:768px) {
+  .activities_images {
+    display: block;
+  }
 }
 .cardsectiontext {
   text-align: start;
