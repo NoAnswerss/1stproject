@@ -14,20 +14,29 @@
     <title>Reservia</title>
 </head>
 <body>
+    <!--Header starts here-->
     <header>
-        <a>
-            <img id="logopng" src="images/logo.webp" alt="reservia_logo">
-        </a>
-        <nav id="flexbox-containers">
-            <a id="accomodations" href="#p_accomodations">Accomodations</a>
-            <a id="activities" href="#activ"> Activities </a>
-            <a  id="sign_up" href="" > Sign Up </a>
+        <img src="images/logo.webp" alt="logo" class="logo">
+        <nav>
+            <ul class="nav_links">
+                <div class="other_links">
+                    <li><a href="#">Accomodations</a></li>
+                    <li><a href="#" id="li_activ">Activities</a></li>
+                </div>
+                <div class="sign_up">
+                    <li><a href="#"><strong>Sign Up</strong></a></li>
+                </div>
+            </ul>
         </nav>
     </header>
-    <div id="toppage">
+    <!--Header ends here-->
+    <!--Top section starts here-->
+    <div class="top_section">
         <h1> Find a place for your dream vacation</h1>
         <p>Downtown or in nature</p>
     </div>
+    <!--Top section ends here-->
+    <!--Search bar starts here-->
     <div id="search_bar"> 
         <div id="pin">
             <img id="location_pin" src="images/location.webp" alt="location_logo">
@@ -35,6 +44,7 @@
         <input type="text" id="search" name="search">
         <input type="submit" value="Search" id="search_button">
     </div>
+    <!--Search bar ends here-->
     <div id="filters_container">
         <a id="filters" href="" >
             <p>Filters</p>

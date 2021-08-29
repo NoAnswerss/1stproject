@@ -1,58 +1,100 @@
-#flexbox-containers {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-left: 2em;
-  margin-right: 3.4em;
-  position: relative;
-}
-#flexbox-containers :hover {
-  transform: scaleX(1.021);
-}
 html {
+  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+a:hover {
+  transform: scaleX(1.021);
+}
+.fas {
+  color: #0065FC;
+}
+/* Header styling starts here*/
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
-#logopng {
-  height: 3rem;
-  margin-left: 35%;
-}
-#toppage {
-  margin-left: 2%;
-}
-#accomodations {
-  width: 200px;
+header li a {
+  font-weight: 500;
+  font-size: large; 
+  text-decoration: none;
   color: #0065FC;
-  text-decoration: none;
 }
-#activities {
-  width: 120px;
-  color: grey;
-  text-decoration: none;
+.logo {
+  height: 50px;
+  cursor: pointer;
+  margin-left: 55px;
+  margin-right: auto;
 }
-#activ {
-  position: sticky;
-  margin-left: 1.6em;
+nav {
+  margin-right: 45px;
 }
-#sign_up {
-  width: 80px;
-  color: #0065FC;
-  font-weight: bold;
-  text-decoration: none;
+.nav_links {
+display: flex;
+list-style: none;
 }
-h1 {
-  display: inline-flex;
-  font-size: medium;
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: purple;
+}
+#li_activ {
   color: black;
+}
+.logo {
+  height: 50px;
+  cursor: pointer;
+  margin-left: 60px;
+  margin-right: auto;
+}
+@media screen and (max-width:768px) {
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .logo .sign_up {
+  display: flex;
+  order: 1;
+}
+header .other_links {
+  display: flex;
+  order: 2;
+}
+}
+/* Header styling ends here */
+/*Top section styling starts here */
+.top_section {
+  display: block;
+  margin-left: 60px;
+}
+.top_section h1 {
+  font-size: 20.7px;
+}
+/*Top section styling ends here */
+/*Search Bar styling starts here */
+#search_bar {
+  margin: 60px;
+  display: flex;
+  border: thin #F2F2F2;    
+}
+#search {
+  height: 50px;
+  margin-left: 1px;
+  width: 15%;
 }
 #pin {
   position: relative;
   background-color:#F2F2F2 ;
-  height: 46px;
+  height: 56px;
   width: 35px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
@@ -62,13 +104,7 @@ h1 {
   top: 12px;
   left: 10px;
   min-width: 1.2rem;
-  max-width: 1.2rem
-}
-.fa-xs {
-  color: #0065FC;
-  background-color: #DEEBFF;
-  border-radius: 3rem;
-  padding: 9px;  
+  max-width: 1.3rem;
 }
 #search_button {
   color: white;
@@ -78,15 +114,20 @@ h1 {
   background-color: #0065FC;
   font-weight: bold;
 }
-#search_bar {
-  margin: 2%;
-  display: flex;
-  border: thin #F2F2F2;    
+@media screen and (max-width:768px) {
+  #search_bar {
+    padding: 10px;
+    width: 70em;
+  }
 }
-#search {
-  height: 40px;
-  margin-left: 1px;
+/*Search bar styling ends here */
+.fa-xs {
+  color: #0065FC;
+  background-color: #DEEBFF;
+  border-radius: 3rem;
+  padding: 9px;  
 }
+
 #filtersdiv :hover {
   transform: scaleX(1.021)
 }
@@ -237,7 +278,7 @@ i {
   font-size: larger;
 }
 .card h2 {
-  pad: 20px;
+  padding: 20px;
   margin-left: 35px;
 }
 a {
@@ -364,13 +405,14 @@ footer {
   align-items: center; 
   width: 100%;
 }
-#leftfooter {
+footer #leftfooter {
   nav-down: auto;
 }
 #rightfoot {
   margin-right: 25%;
 }
-ul {
+
+footer ul {
   background-color: #F2F2F2;
   list-style: none;
   height: 10em;
