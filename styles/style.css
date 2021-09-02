@@ -57,19 +57,24 @@ list-style: none;
   margin-right: auto;
 }
 @media screen and (max-width:768px) {
-header {
-  display: flex;
-  flex-wrap: wrap;
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo {
+    display: flex;
+    margin-right: auto;
+    margin-left: 0;
+    padding-left: 20px;
+  } 
+  .nav_links {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
+  }
 }
-header .logo .sign_up {
-  display: flex;
-  order: 1;
-}
-header .other_links {
-  display: flex;
-  order: 2;
-}
-}
+
 /* Header styling ends here */
 /*Top section styling starts here */
 .top_section {
@@ -116,18 +121,22 @@ header .other_links {
 }
 @media screen and (max-width:768px) {
   #search_bar {
-    padding: 10px;
-    width: 70em;
+    display: flex;
+    align-self: center;
+    width: 80em;
+    position: relative;
+    bottom: 30px;
   }
 }
 /*Search bar styling ends here */
+/*Filters styling starts here */
 .fa-xs {
+  margin-right: auto;
   color: #0065FC;
   background-color: #DEEBFF;
   border-radius: 3rem;
   padding: 9px;  
 }
-
 #filtersdiv :hover {
   transform: scaleX(1.021)
 }
@@ -158,13 +167,14 @@ i {
 .filteroptions {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   text-decoration: none;
   border-style: solid;
   border-left-style: hidden;
   border-radius: 2rem;
   border-color: #F2F2F2;
-  height: 2.4em;
+  width: 100%;
 }  
 #Filters {    
   display: flex;     
@@ -172,6 +182,8 @@ i {
   justify-content: center; 
   text-decoration: none;    
 }
+/*Filters styling ends here */
+
 #imagewrapper {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -255,7 +267,7 @@ i {
 .card {
   background-color: white;
   padding: 5px;
-  width: 240px;
+  width: 250px;
   margin: 20px 20px 20px 20px;
   border-radius: 1rem;
 }
@@ -290,6 +302,13 @@ a {
 .card h4 {
   font-size: large;
   margin-left: 15px;
+}
+@media screen and (max-width:768px) {
+  .cardswrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 /* Most popular cards start here */
 
@@ -460,7 +479,11 @@ p {
   font-size: small;
   width: 25%;
 }
-
+@media screen and (max-width:768px) {
+  footer {
+    display: flex;
+  }
+}
 /* dark blue = #0065FC
 font-family: 'Raleway', sans-serif;
 background-color: #F2F2F2

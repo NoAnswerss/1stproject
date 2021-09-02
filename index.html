@@ -19,13 +19,10 @@
         <img src="images/logo.webp" alt="logo" class="logo">
         <nav>
             <ul class="nav_links">
-                <div class="other_links">
                     <li><a href="#">Accomodations</a></li>
                     <li><a href="#" id="li_activ">Activities</a></li>
-                </div>
-                <div class="sign_up">
-                    <li><a href="#"><strong>Sign Up</strong></a></li>
-                </div>
+                    <!--Move li item up with media query-->
+                    <li><a href="#" id="signup"><strong>Sign Up</strong></a></li>
             </ul>
         </nav>
     </header>
@@ -42,13 +39,13 @@
             <img id="location_pin" src="images/location.webp" alt="location_logo">
         </div>
         <input type="text" id="search" name="search">
+        <!--Change Search text to Magnifier for mobile version-->
         <input type="submit" value="Search" id="search_button">
     </div>
     <!--Search bar ends here-->
+    <!--Filter options start here-->
     <div id="filters_container">
-        <a id="filters" href="" >
-            <p>Filters</p>
-        </a>
+            <p><a href="#">Filters</a></p>
         <a href="" class="filteroptions">
             <div style="font-size: 1.3rem;" class="fa-xs">
                 <i class="fas fa-money-bill-wave"></i>
@@ -78,8 +75,8 @@
         <i style="margin-left: 2%; text-align: center" class="fas fa-info fa-sm"></i>
         <a>More than 500 accomodations are available in this</a>
         <p id="city">city</p>
-    <section id="imagewrapper">
-        <main>
+    <!--Filter options end here-->
+        <main  id="imagewrapper">
             <section class="cards"> 
                 <div class="cardswrapper">
                     <div>
@@ -218,7 +215,6 @@
                 </a>
             </div>
         </aside>
-    </section>
     <h2 id="activ">Activities in Marseille</h2>
     <section class="activities_container">
         <a href="">
