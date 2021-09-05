@@ -24,18 +24,13 @@ header li a {
   text-decoration: none;
   color: #0065FC;
 }
-.logo {
-  height: 50px;
-  cursor: pointer;
-  margin-left: 55px;
-  margin-right: auto;
-}
+
 nav {
   margin-right: 45px;
 }
 .nav_links {
-display: flex;
-list-style: none;
+  display: flex;
+  list-style: none;
 }
 .nav_links li {
   display: inline-block;
@@ -45,7 +40,10 @@ list-style: none;
   transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover {
-  color: purple;
+  color: rebeccapurple;
+  text-decoration: overline;
+  position: relative;
+  bottom: 3px;
 }
 #li_activ {
   color: black;
@@ -56,60 +54,102 @@ list-style: none;
   margin-left: 60px;
   margin-right: auto;
 }
+header #hideme {
+  display: none;
+}
 @media screen and (max-width:768px) {
   header {
     display: flex;
     flex-wrap: wrap;
+  }
+  header #hideme {
+    display: initial;
+    color: #0065FC;
+    font-size: large;
+    position: relative;
+    right: 30px;
+    top: 20px;
+  }
+  #signup {
+    display: none;
   }
   .logo {
     display: flex;
     margin-right: auto;
     margin-left: 0;
     padding-left: 20px;
+    margin-top: 20px;
   } 
   .nav_links {
     display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
   }
+  .nav_links a {
+    color: #0065FC;
+    font-size: 1.2em;
+  }
+  #li_activ {
+    margin-left: 20%;
+    margin-right: .2rem;
+  }
+  header nav {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
-
 /* Header styling ends here */
 /*Top section styling starts here */
 .top_section {
   display: block;
+  margin-left: 1em;
   margin-left: 60px;
 }
 .top_section h1 {
   font-size: 20.7px;
+}
+@media screen and (max-width:768px) {
+  .top_section h1 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  .top_section {
+    margin: 20px;
+    position: relative;
+    bottom: .5em;
+  }
 }
 /*Top section styling ends here */
 /*Search Bar styling starts here */
 #search_bar {
   margin: 60px;
   display: flex;
-  border: thin #F2F2F2;    
+  border: thin #F2F2F2; 
+  width: 100%;   
 }
 #search {
   height: 50px;
   margin-left: 1px;
-  width: 15%;
+  width: 250px;
 }
 #pin {
   position: relative;
   background-color:#F2F2F2 ;
   height: 56px;
-  width: 35px;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
+  width: 50px;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 #location_pin {
-  position: relative;
-  top: 12px;
-  left: 10px;
-  min-width: 1.2rem;
-  max-width: 1.3rem;
+  position: inherit;
+  top: 16px;
+  left: 16px;
+  min-width: 1.3rem;
+  max-width: 1.4rem;
 }
 #search_button {
   color: white;
@@ -121,11 +161,27 @@ list-style: none;
 }
 @media screen and (max-width:768px) {
   #search_bar {
-    display: flex;
-    align-self: center;
-    width: 80em;
+    width: 100%;
+    padding: 0%;
+    margin-left: 20px;
+    margin-top: 0%;
+  }
+  #search_button {
+    border-radius: 1rem;
     position: relative;
-    bottom: 30px;
+    right: 10px;
+  }
+  #search {
+    height: 56px;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: .3px;
+    border-color: #f2f2f2;
+  }
+  #pin {
+    height: inherit;
   }
 }
 /*Search bar styling ends here */
@@ -395,9 +451,9 @@ a {
 }
 
 /* set width 100% 
-   display:block (optional)
-   object-fit: cover
-   aspect-ratio: 3 / 1 */
+display:block (optional)
+object-fit: cover
+aspect-ratio: 3 / 1 */
 
 footer {
   background-color: #F2F2F2;
