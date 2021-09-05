@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 .filter_wrapper {
+  margin-left: 65px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -18,13 +19,26 @@ body {
   font-weight: 900;
 }
 .filter_wrapper li {
+  display: block;
+  align-items: center;
+  justify-self: center;
   font-weight: bold;
   font-size: large;
   margin-right: 60px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  border-width: 1px;
+  border-radius: 1rem;
 }
-.fas-lg {
+.filter_wrapper a {
+  text-decoration: none;
+  font-size: 16px;
+  padding-right: 10px;
+}
+.filter_wrapper .fa-lg {
+  font-size: xx-large;
   color: #0065FC;
   margin-right: 5px;
   background-color: lightblue;
-  border-radius: 1rem;
+  border-radius: 3rem;
 }
