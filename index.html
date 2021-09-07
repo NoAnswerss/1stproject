@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1ce7f964f6.js" crossorigin="anonymous"></script>
@@ -17,16 +17,10 @@
     <!--Header starts here-->
     <header>
         <img src="images/logo.webp" alt="logo" class="logo">
-        <div>
-            <a href="#"><strong id="hideme">Sign Up</strong></a>
-        </div>
         <nav>
-            <ul class="nav_links">
-                <li><a href="#">Accomodations</a></li>
-                <li><a href="#" id="li_activ">Activities</a></li>
-                <!--Move li item up with media query-->
-                <li><a href="#" id="signup"><strong>Sign Up</strong></a></li>
-            </ul>
+            <a href="#accomodations">Accomodations</a>
+            <a href="#activities">Activities</a>
+            <a href="#sign_up">Sign up</a>
         </nav>
     </header>
     <!--Header ends here-->
@@ -43,19 +37,22 @@
         </div>
         <input type="text" id="search" name="search">
         <!--Change Search text to Magnifier for mobile version-->
-        <button><i class="fas fa-search"></i> <span id="button_text">Search</span></button>
+        <button>
+            <i class="fas fa-search"></i>
+            <span id="button_text">Search</span>
+        </button>
     </div>
     <!--Search bar ends here-->
     <!--Filter options start here-->
-    <navbar>
+    <nav class="filtre">
+        <h3>Filters</h3>
         <ul class="filter_wrapper">
-            <p>Filters</p>
             <li><a href="#"><i class="fas fa-money-bill-wave fa-lg"></i>Low Cost</a></li>
             <li><a href="#"><i class="fas fa-child fa-lg"></i>Family-friendly</a></li>
             <li><a href="#"><i class="fas fa-heart fa-lg"></i>Romantic</a></li>
             <li><a href="#"><i class="fas fa-dog fa-lg"></i>Pets-allowed</a></li>
         </ul>
-    </navbar>
+    </nav>
     <p id="informations"></p>
         <i style="margin-left: 2%; text-align: center" class="fas fa-info fa-sm"></i>
         <a>More than 500 accomodations are available in this</a>
