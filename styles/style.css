@@ -17,6 +17,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-bottom: 5px;
 }
 header li a {
   font-weight: 500;
@@ -28,6 +29,7 @@ nav {
   margin-right: 45px;
 }
 .nav_links {
+  margin-top: 5px;
   display: flex;
   list-style: none;
 }
@@ -35,9 +37,11 @@ nav {
   display: inline-block;
   padding: 0px 20px;
 }
-#signup {
+#sign_up {
+  margin-right: 30px;
   font-weight: 800;
   color: #0065FC;
+  margin-top: 5px;
 }
 .nav_links li a {
   transition: all 0.3s ease 0s;
@@ -51,17 +55,13 @@ nav {
   margin-left: 60px;
   margin-right: auto;
 }
-#signupmobile {
-  display: none;
-}
- 
-header *::before,
-header *::after{
+.nav_links *::before,
+.nav_links *::after{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-header nav {
+.nav_links {
   height: 10vh;
   width: 70vw;
   min-width: 600px;
@@ -71,7 +71,7 @@ header nav {
   align-content: flex-end;
   margin-left: 10px;
 }
-header a {
+.nav_links a {
   position: relative;
   text-decoration: none;
   color: black;
@@ -79,20 +79,20 @@ header a {
   letter-spacing: 0.8px;
   padding: 0 10px;
 }
-header a:after{
+.nav_links a:after{
   content: "";
   position: absolute;
   background-color:#0065FC;
   height: 3px;
   width: 0;
   left: 0;
-  top: -1.3em;
-  transition: .6s;
+  bottom: 2.1em;
+  transition: .21s;
 }
-header a:hover {
+.nav_links a:hover {
   color: #0065FC;
 }
-header a:hover:after{
+.nav_links a:hover:after{
   width: 100%;
 }
 @media screen and (max-width:768px) {
@@ -110,13 +110,8 @@ header a:hover:after{
   .nav_links {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap-reverse;
-    padding: 5px;
-    position: relative;
-    right: 13px;
-    bottom: 13px;
-    margin-top: 0;
+    margin-right: 50px;
+    width: 100%;
   }
   .nav_links a {
     color: #0065FC;
@@ -127,6 +122,11 @@ header a:hover:after{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+  #sign_up {
+    position: relative;
+    bottom: 100px;
+    font-weight: 900;
   }
 }
 /* Header styling ends here */
