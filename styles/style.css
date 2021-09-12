@@ -19,7 +19,7 @@ header {
   align-items: center;
   padding-bottom: 5px;
 }
-header li a {
+header a {
   font-weight: 500;
   font-size: large; 
   text-decoration: none;
@@ -43,8 +43,8 @@ nav {
   color: #0065FC;
   margin-top: 5px;
 }
-.nav_links li a {
-  transition: all 0.3s ease 0s;
+#sign_up:hover {
+  transform: scaleX(1);
 }
 #li_activ {
   color: black;
@@ -79,6 +79,9 @@ nav {
   letter-spacing: 0.8px;
   padding: 0 10px;
 }
+.nav_links a:active {
+  text-decoration: underline;
+}
 .nav_links a:after{
   content: "";
   position: absolute;
@@ -86,7 +89,7 @@ nav {
   height: 3px;
   width: 0;
   left: 0;
-  bottom: 2.1em;
+  bottom: 3em;
   transition: .21s;
 }
 .nav_links a:hover {
@@ -123,6 +126,8 @@ nav {
     justify-content: flex-end;
     align-items: center;
   }
+}
+@media screen and (max-width:767px){
   #sign_up {
     position: relative;
     bottom: 100px;
