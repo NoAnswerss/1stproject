@@ -95,6 +95,9 @@ nav {
 .link_background {
   display: none;
 }
+.topnav {
+  display: none;
+}
 @media screen and (max-width:768px) {
   header {
     display: flex;
@@ -110,6 +113,9 @@ nav {
   .nav_links {
     display: none;
   }
+  #sign_up {
+    visibility: visible;
+  }
   .nav_links a {
     color: #0065FC;
     font-size: 1.2em;
@@ -120,42 +126,33 @@ nav {
     justify-content: flex-end;
     align-items: center;
   }
-  .link_background {
+  .topnav {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-right: 50px;
-    width: 100%;
-    margin-top: 1.2em;
+    margin-right: 4em;
+    margin-left: initial;
+    overflow: hidden;
   }
-  a.left
-{
-    position: relative;
-}
-a.left:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  top: 20px;
-  margin-top: 1em;
-  background-color: #0065FC;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
-a.left:hover:before {
-  visibility: visible;
-  width: 100%;
-}
+  .topnav a {
+    width: 100%;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+    border-bottom-width: 130em;
+  }
+  .topnav a:hover {
+    border-bottom: 3px solid #F2F2F2;
+    
+  }
+  .topnav a.active {
+    border-bottom: 3px solid #0065FC;
+  }
   #sign_up {
-    position: relative;
-    bottom: 70px;
     font-weight: 900;
-    padding-bottom: 1.3em;
-    margin-bottom: 1.3em;
   }
 }
 /* Header styling ends here */
