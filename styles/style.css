@@ -76,9 +76,6 @@ nav {
   letter-spacing: 0.8px;
   padding: 0 10px;
 }
-.nav_links a:active {
-  text-decoration: underline;
-}
 .nav_links a:after{
   content: "";
   position: absolute;
@@ -95,6 +92,9 @@ nav {
 .nav_links a:hover:after{
   width: 100%;
 }
+.link_background {
+  display: none;
+}
 @media screen and (max-width:768px) {
   header {
     display: flex;
@@ -108,10 +108,7 @@ nav {
     margin-top: 20px;
   } 
   .nav_links {
-    display: flex;
-    flex-direction: row;
-    margin-right: 50px;
-    width: 100%;
+    display: none;
   }
   .nav_links a {
     color: #0065FC;
@@ -123,12 +120,42 @@ nav {
     justify-content: flex-end;
     align-items: center;
   }
+  .link_background {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    width: 100%;
+    margin-top: 1.2em;
+  }
+  a.left
+{
+    position: relative;
 }
-@media screen and (max-width:767px){
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  top: 20px;
+  margin-top: 1em;
+  background-color: #0065FC;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
   #sign_up {
     position: relative;
-    bottom: 100px;
+    bottom: 70px;
     font-weight: 900;
+    padding-bottom: 1.3em;
+    margin-bottom: 1.3em;
   }
 }
 /* Header styling ends here */
@@ -280,19 +307,19 @@ nav {
 }
 @media screen and (max-width:768px) {
   .filter_wrapper {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
   .filter_wrapper h2 {
-      margin-left: 40px;
-      margin-bottom: 0;
+    margin-left: 40px;
+    margin-bottom: 0;
   }
   .filters_list {
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
   .filters_list a {
-      margin-left: 5px;
+    margin-left: 5px;
   }
 }
 /*Filters styling ends here */
