@@ -142,7 +142,6 @@ nav {
     text-decoration: none;
     font-size: 20px;
     border-bottom: 3px solid transparent;
-    border-bottom-width: 130em;
   }
   .topnav a:hover {
     border-bottom: 3px solid #F2F2F2;
@@ -228,7 +227,7 @@ nav {
     border-radius: 1rem;
     margin-right: 20px;
     position: relative;
-    right: 10px;
+    right: 1.3em;
     width: 60px;
   }
   #button_text {
@@ -261,7 +260,6 @@ nav {
   align-content: center;
   justify-items: center;
   margin-left: 60px;
-  
 }
 .filter_wrapper a {
   color: black;
@@ -304,19 +302,25 @@ nav {
 }
 @media screen and (max-width:768px) {
   .filter_wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  .filter_wrapper h2 {
-    margin-left: 40px;
-    margin-bottom: 0;
+    display: block;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
   .filters_list {
-    display: flex;
-    flex-direction: row;
+    margin-left: -.6em;
+    padding: 0;
+    width: 90%;
   }
   .filters_list a {
+    font-weight: 900;
     margin-left: 5px;
+  }
+}
+@media screen and (max-width:414px) {
+  .out {
+    position: absolute;
+    right: 0.2em;
+    top: 24.5em;
   }
 }
 /*Filters styling ends here */
