@@ -128,7 +128,7 @@ nav {
   }
   .topnav {
     display: flex;
-    margin-right: 4em;
+    margin-right: .2em;
     margin-left: initial;
     overflow: hidden;
   }
@@ -144,11 +144,10 @@ nav {
     border-bottom: 3px solid transparent;
   }
   .topnav a:hover {
-    border-bottom: 3px solid #F2F2F2;
-    
-  }
-  .topnav a.active {
     border-bottom: 3px solid #0065FC;
+  }
+  .topnav .inactive {
+    border-bottom: 3px solid #f2f2f2;
   }
   #sign_up {
     font-weight: 900;
@@ -322,6 +321,51 @@ nav {
     right: 0.2em;
     top: 24.5em;
   }
+  header {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .topnav {
+    padding-right: 2em;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .topnav a {
+    width: 100%;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+  }
+  .topnav a:hover {
+    border-bottom: 3px solid #0065FC;
+  }
+  .topnav .inactive {
+    border-bottom: 3px solid #f2f2f2;
+  }
+}
+/* Info */
+.info {
+  font-size: large;
+  display: block;
+  margin-left: 3.4em;
+  width: 40%;
+}
+.info a {
+  margin-left: .3em;
+}
+.info p {
+  margin-left: 2.3em;
+}
+.fa-info {
+  display: block;
+  color: #0065FC;
+  position: relative;
+  text-align: center;
 }
 /*Filters styling ends here */
 #imagewrapper {
@@ -449,14 +493,10 @@ a {
     margin: 0;
     padding: 0;
   }
-}
 /* Most popular cards start here */
-
-@media screen and (max-width:768px) {
   .accomodations_container {
     display: block;
   }
-}
 /* Activities section */
 
 .activities_container {
@@ -467,11 +507,9 @@ a {
   width: 95%;
   margin: 0% 2% 3% 2%;
 }
-@media screen and (max-width:768px) {
   .activities_container {
     display: block;
   }
-}
 .tall_cards { 
   background-color: white;    
   border-radius: 1rem;
@@ -539,16 +577,15 @@ a {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-@media screen and (max-width:768px) {
   .activities_images {
     display: block;
   }
-}
 .cardsectiontext {
   text-align: start;
   font-size: medium;
   font-weight: bolder;
   margin-left: 5%;
+}
 }
 
 /* set width 100% 
