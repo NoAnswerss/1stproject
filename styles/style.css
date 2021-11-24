@@ -314,6 +314,9 @@ nav {
     font-weight: 900;
     margin-left: 5px;
   }
+  #petsfilter {
+    padding-right: 30px;
+  }
 }
 @media screen and (max-width:414px) {
   .out {
@@ -326,7 +329,6 @@ nav {
     margin-left: 0;
   }
   .topnav {
-    padding-right: 2em;
     margin-left: 0;
     padding-left: 0;
   }
@@ -346,6 +348,9 @@ nav {
   }
   .topnav .inactive {
     border-bottom: 3px solid #f2f2f2;
+  }
+  .sign_up {
+    padding-top: 35px;
   }
 }
 /* Info */
