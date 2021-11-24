@@ -305,6 +305,10 @@ nav {
     margin-left: 1.5em;
     margin-right: 1.5em;
   }
+  .filter_wrapper h2 {
+    padding: 0px;
+    margin-bottom: 10px;
+  }
   .filters_list {
     margin-left: -.6em;
     padding: 0;
