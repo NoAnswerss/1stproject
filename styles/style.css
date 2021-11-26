@@ -299,6 +299,11 @@ nav {
   position: relative;
   right: 2px;
 }
+#inform {
+  text-align: center;
+  margin-left: 3px;
+  word-break: normal;
+}
 @media screen and (max-width:768px) {
   .filter_wrapper {
     display: block;
@@ -306,8 +311,8 @@ nav {
     margin-right: 1.5em;
   }
   .filter_wrapper h2 {
-    padding: 0px;
-    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
   }
   .filters_list {
     margin-left: -.6em;
@@ -322,6 +327,10 @@ nav {
     padding-right: 30px;
   }
 }
+  #info {
+    margin-left: 60px;
+    padding-bottom: 10px;
+  }
 @media screen and (max-width:414px) {
   .out {
     position: absolute;
@@ -356,19 +365,9 @@ nav {
   .sign_up {
     padding-top: 35px;
   }
-}
-/* Info */
-.info {
-  font-size: large;
-  display: block;
-  margin-left: 3.4em;
-  width: 40%;
-}
-.info a {
-  margin-left: .3em;
-}
-.info p {
-  margin-left: 2.3em;
+  #info {
+    margin-left: 30px;
+  }
 }
 .fa-info {
   display: block;
@@ -381,8 +380,7 @@ nav {
   display: flex;
   flex-wrap: wrap-reverse;
   flex-direction: row;
-  margin-left: 2em;
-  margin-right: 2em;
+
   background-color: white;
   width: 100%;
 }
@@ -432,6 +430,7 @@ nav {
   flex-direction: row;
   background-color: white;
   padding: 20px;
+  width: 75%;
 }
 .cards h2 {
   text-align: left;
@@ -452,10 +451,13 @@ nav {
   margin: 10px 10px 10px 10px;
 }
 .cardswrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
   margin-left: 2em;
   background-color: #F2F2F2;
   border-radius: 1rem;
-  width: 65%;
+  width: 100%;
 }
 .card {
   background-color: white;
@@ -643,7 +645,6 @@ h2:hover {
 } 
 #chart {
   color: black;
-  position: absolute;
   right: 90px;
 }
 p {                                   
