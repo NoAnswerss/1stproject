@@ -5,6 +5,9 @@ html {
 body {
   margin: 0;
   padding: 0;
+  overflow: visible;
+  padding-right: 0;
+  margin-right: 0;
 }
 a:hover {
   transform: scaleX(1.021);
@@ -15,6 +18,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 5px;
+  margin-right: 160px;
 }
 header a {
   font-weight: 500;
@@ -29,6 +33,7 @@ nav {
   margin-top: 5px;
   display: flex;
   list-style: none;
+  margin-right: 30px;
 }
 .nav_links li {
   display: inline-block;
@@ -184,6 +189,7 @@ nav {
   width: 20%;   
   margin-top: 0;
   margin-bottom: 0;
+  overflow: visible;
 }
 #search {
   min-height: 50px;
@@ -274,8 +280,9 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 64%;
   list-style-type: none;
+  overflow: visible;
 }
 .filters_list a {
   margin-left: 20px;
@@ -376,24 +383,18 @@ nav {
   text-align: center;
 }
 /*Filters styling ends here */
-#imagewrapper {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  flex-direction: row;
-
-  background-color: white;
-  width: 100%;
-}
-.imageonediv {
-  border-top: 3rem;
-}
-
 /* Popular section */
-
 #mostpop {    
   font-size: x-large;
   font-weight: bold;                              
   margin-left: 2em;
+}
+.popularcontainer {
+  display: block;
+  margin-left: 2em;
+  border-radius: 1rem;
+  background-color: #F2F2F2;
+  width: 25%;
 }
 .popular_cards {
   display: flex;
@@ -415,22 +416,15 @@ nav {
   text-align: left;
   margin: 0em .5em .4em 1.5em;
 }
-.popularcontainer {
-  display: block;
-  margin-left: 2em;
-  border-radius: 1rem;
-  background-color: #F2F2F2;
-  width: 30%;
-}
-
 /* Accomodations Section */
 /* Cards start here */
 .cards {
   display: flex;
   flex-direction: row;
+  gap: 2em;
   background-color: white;
   padding: 20px;
-  width: 75%;
+  width: 100%;
 }
 .cards h2 {
   text-align: left;
@@ -442,27 +436,25 @@ nav {
   font-weight: bold;
 }
 /* Accomodations cards start here */
+.cardswrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  background-color: #F2F2F2;
+  border-radius: 1rem;
+  width: 65%;
+}
 .accomodations_container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 10px 10px 10px 10px;
-}
-.cardswrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-  margin-left: 2em;
-  background-color: #F2F2F2;
-  border-radius: 1rem;
-  width: 100%;
 }
 .card {
   background-color: white;
   padding: 5px;
-  width: 250px;
+  width: 270px;
   margin: 20px 20px 20px 20px;
   border-radius: 1rem;
 }
@@ -478,6 +470,9 @@ nav {
 }
 .greystar {
   color: #f2f2f2;
+}
+.bluestar {
+  color: #0065FC;
 }
 .cards h3 {
   display: block;
@@ -504,10 +499,7 @@ a {
     margin: 0;
     padding: 0;
   }
-/* Most popular cards start here */
-  .accomodations_container {
-    display: block;
-  }
+
 /* Activities section */
 
 .activities_container {
