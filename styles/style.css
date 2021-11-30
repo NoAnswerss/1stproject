@@ -18,7 +18,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 5px;
-  padding-right: 60px;
+  padding-right: 30px;
 }
 header a {
   font-weight: 500;
@@ -40,8 +40,7 @@ nav {
   padding: 0px 20px;
 }
 #sign_up {
-  margin-right: 30px;
-  font-weight: 800;
+  font-weight: 900;
   color: #0065FC;
   margin-top: 5px;
 }
@@ -312,6 +311,9 @@ nav {
   word-break: normal;
 }
 @media screen and (max-width:768px) {
+  .logo {
+    margin-top: 10px;
+  }
   .filter_wrapper {
     display: block;
     margin-left: 1.5em;
@@ -336,14 +338,24 @@ nav {
 }
   #info {
     display: flex;
-    margin-left: 60px;
+    margin-left: 25px;
     margin-bottom: 5px;
   }
 @media screen and (max-width:414px) {
+  .logo {
+    margin-top: 10px;
+  }
+  .activities_images {
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+    height: 10rem;
+  }
   .out {
     position: absolute;
     right: 0.2em;
-    top: 24.5em;
+    top: 23.8em;
   }
   header {
     padding-left: 0;
@@ -371,7 +383,14 @@ nav {
     border-bottom: 3px solid #f2f2f2;
   }
   .sign_up {
-    padding-top: 35px;
+    padding-top: 10px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 0;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 700px) {
@@ -527,7 +546,6 @@ a {
   border-radius: 1rem;
   border-bottom-style: solid;
   border-color: #F2F2F2;
-  margin-bottom: 11%;
 }
 #frioul_card {
   background-color: white;    
@@ -540,48 +558,12 @@ a {
   border-bottom-style: solid;
   border-color: #F2F2F2;
   border-radius: 1rem;
-  margin-bottom: 11%;
 }
 #long {
   background-color: white;    
   border-radius: 1rem;
   border-bottom-style: solid;
   border-color: #F2F2F2;
-}
-.tall_pictures {
-  object-fit: cover;
-  width: 420px;
-  height: 465px;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-#pomegues_picture {
-  object-fit: cover;
-  width: 420px;
-  height: 210px;
-  border-top-left-radius: 1rem; 
-  border-top-right-radius: 1rem;
-}
-#frioul_picture {
-  object-fit: cover;
-  width: 420px;
-  height: 150px;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-#notre_picture {
-  object-fit: cover;
-  width: 420px;
-  height: 180px;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-#longchamp_picture {
-  object-fit: cover;
-  width: 420px;
-  height: 180px;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
 }
   .activities_images {
     display: block;
@@ -593,7 +575,6 @@ a {
   margin-left: 5%;
 }
 }
-
 /* set width 100% 
 display:block (optional)
 object-fit: cover
