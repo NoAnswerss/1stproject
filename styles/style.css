@@ -9,9 +9,6 @@ body {
   padding-right: 0;
   margin-right: 0;
 }
-a:hover {
-  transform: scaleX(1.021);
-}
 /* Header styling starts here*/
 header {
   display: flex;
@@ -65,7 +62,6 @@ nav {
 .nav_links {
   height: 10vh;
   width: 70vw;
-  min-width: 600px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -259,8 +255,7 @@ nav {
 }
 .popular_cards {
   color: black;
-  font-weight: 900;
-  font-size: 18px;
+  font-size: 14px;
 }
 .popular_text {
   margin: 0px 20px 5px 20px;
@@ -289,7 +284,6 @@ nav {
   width: 100%;
 }
 .cards h2 {
-  text-align: left;
   margin-left: 60px;
   padding-top: 10px;
 }
@@ -359,8 +353,8 @@ footer {
   justify-content: space-between;
   width: 100%;
 }
-footer #leftfooter {
-  nav-down: auto;
+footer a {
+  color: black;
 }
 #rightfoot {
   margin-right: 25%;
@@ -406,9 +400,39 @@ p {
 }
 .activities_container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
   width: 100%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.activities_card {
+ color: black;
+ width: 100%;
+ margin-right: 60px;
+ background-color: white;
+ border-radius: 1rem;
+ border-bottom-style: solid;
+ border-color: #F2F2F2;
+}
+.activities_images {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.reduced_width {
+  width: 100%;
+}
+.activities_container a {
+  text-decoration: none;
+  color: black;
+}
+.tall_cards {
+  aspect-ratio: 9 / 10;
+}
+#activ {
+  margin-left: 30px;
 }
 @media screen and (max-width:768px) {
   footer {
@@ -423,7 +447,7 @@ p {
   .activities_container {
     display: block;
     width: 95%;
-    margin: 0% 2% 3% 2%;
+    margin-left: 10px;
   }
   .activities_cards {
     background-color: white;    
@@ -502,7 +526,7 @@ p {
     margin: 20px;
   }
   #search_bar {
-    width: 100%;
+    width: 95%;
     padding: 0%;
     margin-left: 15px;
   }
@@ -577,6 +601,11 @@ p {
     position: absolute;
     right: 0.2em;
     top: 23.8em;
+    margin-top: 27px;
+  }
+  .cards h2 {
+    margin-left: 30px;
+    padding-top: 10px;
   }
   header {
     padding: 0;
@@ -618,6 +647,18 @@ p {
   .activities_cards {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  #search_bar {
+    margin-top: 35px;
+  }
+  .accomodations_container {
+    background-color: #faf5f5;
+  }
+  .card {
+    width: max-content;
+  }
+  .cards {
+    gap: 0;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 700px) {
