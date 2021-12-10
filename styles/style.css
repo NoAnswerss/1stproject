@@ -206,11 +206,8 @@ nav {
   word-break: normal;
 }
 #info {
-  margin-left: 30px;
-}
-#info {
   display: flex;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-bottom: 5px;
   padding-bottom: 25px;
 }
@@ -226,8 +223,6 @@ nav {
   text-align: center;
   margin-right: 5px;
 }
-/*Filters styling ends here */
-/* Popular section */
 #mostpop {    
   font-size: x-large;
   font-weight: bold;                              
@@ -242,20 +237,17 @@ nav {
 }
 .popular_cards {
   display: flex;
-  background-color: white;
-  border-radius: 1rem;
-  margin: 27px 5px 39px 39px;
-  width: 80%;
+background-color: white;
+border-radius: 1rem;
+margin: 5px 30px 39px 30px;
+color: black;
+font-size: 20px;
 }
 .popular_images {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   margin: 5px 0px 5px 5px;
   width: 130px;
-}
-.popular_cards {
-  color: black;
-  font-size: 14px;
 }
 .popular_text {
   margin: 0px 20px 5px 20px;
@@ -269,7 +261,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-right: 60px;
+  margin-right: 30px;
   font-size: 20px;
   padding-top: 10px;
 }
@@ -313,13 +305,13 @@ nav {
 .card {
   background-color: white;
   padding: 5px;
-  width: 290px;
-  margin: 10px 62px 30px 50px;
+  width: 340px;
+  margin: 0px 20px 30px 20px;
   border-radius: 1rem;
 }
 .card img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 7;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
@@ -403,18 +395,20 @@ p {
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
-  width: 100%;
   margin-left: 30px;
   margin-top: 20px;
 }
 .activities_card {
- color: black;
- width: 100%;
- margin-right: 60px;
- background-color: white;
- border-radius: 1rem;
- border-bottom-style: solid;
- border-color: #F2F2F2;
+  color: black;
+  width: 100%;
+  margin: 0px 115px 52px 0px;
+  background-color: white;
+  border-radius: 1rem;
+  border-bottom-style: solid;
+  border-color: #F2F2F2;
+}
+.activities_card h3 {
+  margin: 15px 10px;
 }
 .activities_images {
   width: 100%;
@@ -433,6 +427,7 @@ p {
 }
 #activ {
   margin-left: 30px;
+  margin-top: 60px;
 }
 @media screen and (max-width:768px) {
   footer {
