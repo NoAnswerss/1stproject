@@ -9,7 +9,6 @@ body {
   padding-right: 0;
   margin-right: 0;
 }
-/* Header styling starts here*/
 header {
   display: flex;
   justify-content: flex-end;
@@ -98,8 +97,6 @@ nav {
 .topnav {
   display: none;
 }
-/* Header styling ends here */
-/*Top section styling starts here */
 .top_section {
   display: block;
   margin-left: 1em;
@@ -108,8 +105,6 @@ nav {
 .top_section h1 {
   font-size: 20.7px;
 }
-/*Top section styling ends here */
-/*Search Bar styling starts here */
 #search_bar {
   margin: 30px;
   display: flex;
@@ -150,8 +145,6 @@ nav {
 #search_bar .fa-search {
   display: none;
 }
-/*Search bar styling ends here */
-/*Filters styling starts here */
 .filter_wrapper {
   display: flex;
   flex-direction: row;
@@ -593,6 +586,13 @@ p {
     width: 100%;
     height: 10rem;
   }
+  #activ {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  #info {
+    margin-left: 20px;
+  }
   .out {
     position: absolute;
     right: 0.2em;
@@ -657,7 +657,7 @@ p {
     margin-left: 20px;
   }
   .card {
-    width: max-content;
+    border-color: black;
   }
   .cards {
     gap: 0;
@@ -665,6 +665,9 @@ p {
   .popular_cards {
     font-size: 14px;
     margin-bottom: 3px;
+  }
+  .popularcontainer {
+    padding-bottom: 30px;
   }
   footer ul {
     padding-left: 20px;
