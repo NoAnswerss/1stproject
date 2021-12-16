@@ -429,10 +429,10 @@ p {
   margin-left: 30px;
   margin-top: 60px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:810px) {
   footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .cardswrapper {
     width: 100%;
@@ -442,7 +442,6 @@ p {
   .activities_container {
     display: block;
     width: 95%;
-    margin-left: 10px;
   }
   .activities_cards {
     background-color: white;    
@@ -579,9 +578,28 @@ p {
   }
   .popularcontainer {
     width: 100%;
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+  .cards {
+    gap: 0em;
+    flex-direction: column-reverse;
+  }
+  .activities_column {
+    width: 100%;
+  }
+  .activities_column2 {
+    width: 100%;
+  }
+  .activities_images {
+    height: 15rem;
+  }
+  .activities_card {
+    margin: 0px 5px 9px 15px;
+    width: 95%;
   }
 }
-@media screen and (max-width:428px) {
+@media screen and (max-width:440px) {
   .cardswrapper {
     border-radius: 0rem;
   }
@@ -593,7 +611,7 @@ p {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     width: 100%;
-    height: 10rem;
+    height: 8rem;
   }
   #activ {
     margin-top: 10px;
@@ -658,6 +676,10 @@ p {
   .activities_cards {
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 95%;
+  }
+  .activities_container {
+    margin-left: 0px;
   }
   #search_bar {
     margin-top: 35px;
@@ -666,7 +688,7 @@ p {
     margin-left: 20px;
   }
   .card {
-    border-color: black;
+    box-shadow: 0px 100px 80px 50px #f2f2f2;
   }
   .cards {
     gap: 0;
@@ -678,6 +700,10 @@ p {
   .popularcontainer {
     padding-bottom: 30px;
     width: 100%;
+    border-radius: 0rem;
+  }
+  footer {
+    flex-direction: column;
   }
   footer ul {
     padding-left: 20px;
