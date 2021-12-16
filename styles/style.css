@@ -404,6 +404,12 @@ p {
 .activities_card h3 {
   margin: 15px 10px;
 }
+.activities_column {
+  width: 80%;
+}
+.activities_column2 {
+  width: 87.5%;
+}
 .activities_images {
   width: 100%;
   border-top-left-radius: 1rem;
@@ -571,8 +577,11 @@ p {
   #petsfilter {
     padding-right: 30px;
   }
+  .popularcontainer {
+    width: 100%;
+  }
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:428px) {
   .cardswrapper {
     border-radius: 0rem;
   }
@@ -668,18 +677,20 @@ p {
   }
   .popularcontainer {
     padding-bottom: 30px;
+    width: 100%;
   }
   footer ul {
     padding-left: 20px;
+  }
+  .activities_column {
+    width: 100%;
+  }
+  .activities_column2 {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 700px) {
   br {
     display: none;
-  }
-  .popularcontainer {
-    border-radius: 0rem;
-    margin-left: 0px;
-    width: 100%;
   }
 }
