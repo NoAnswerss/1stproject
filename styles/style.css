@@ -161,6 +161,9 @@ nav {
 .filter_wrapper h2 {
   align-self: center;
 }
+.filters_list a:hover {
+  background-color: yellow;
+}
 .filters_list {
   display: flex;
   flex-direction: row;
