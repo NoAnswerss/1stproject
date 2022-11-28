@@ -1,19 +1,19 @@
-Started from scratch again
-Made the html file
-linked it to the CSS 
-added the required font family
-added id to header.
-added a nav 
-created href anchors without actual link
-added h3's and p's
-added a search bar with a img src pin in a div
-asigned specific names to each class
-changed id and class to class only .
-created a html div for CSS Grid
-Added display-flex to Header
-Added the required font-family
-added grid with linked pictures that have a color changing effect when hovered over and ease-out.
-change the pictures format from jpeg to png for better quality .
-swapped divs into anchors 
-added headings and paragraphs to the page .
-removed unrequired hover effects
+Reservia: Rental Marketplace
+
+Transform mockup into responsive one-page HTML/CSS static template
+Live page @ https://noanswerss.github.io/Reservia/
+
+Coded in Visual Studio Code and used: 
+
+HTML5 Semantic Tags
+CSS3 Flexbox
+CSS3 Grid Layout
+CSS3 Custom Media Queries
+W3C Html & Css Validator
+
+Used the following Mock-up for desktop
+![Desktop - 1](https://user-images.githubusercontent.com/61190539/204389497-a546e98e-3bc7-489c-9d19-feadb787a2b3.png)
+
+And use the following mock-up for mobile
+
+![iPhone 8 - 1](https://user-images.githubusercontent.com/61190539/204389603-dad8a675-51b7-47b8-96ae-d4037e1cdb46.png)
