@@ -1,6 +1,7 @@
 Reservia: Rental Marketplace
 
-Transform mockup into responsive one-page HTML/CSS static template
+Transformed mockup into responsive one-page HTML/CSS static template
+
 Live page @ https://noanswerss.github.io/Reservia/
 
 Coded in Visual Studio Code and used: 
@@ -14,6 +15,6 @@ W3C Html & Css Validator
 Used the following Mock-up for desktop
 ![Desktop - 1](https://user-images.githubusercontent.com/61190539/204389497-a546e98e-3bc7-489c-9d19-feadb787a2b3.png)
 
-And use the following mock-up for mobile
+And used the following mock-up for mobile
 
 ![iPhone 8 - 1](https://user-images.githubusercontent.com/61190539/204389603-dad8a675-51b7-47b8-96ae-d4037e1cdb46.png)
