@@ -2,7 +2,7 @@ Reservia: Rental Marketplace
 
 Transformed mockup into responsive one-page HTML/CSS static template
 
-Live page @ https://noanswerss.github.io/Reservia/
+Live page @ https://c-v-pop.github.io/Reservia/
 
 Coded in Visual Studio Code and used: 
 
