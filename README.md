@@ -2,8 +2,6 @@
 
 Live page @ https://c-v-pop.github.io/Reservia/
 
-Coded in Visual Studio Code and used: 
-
 <h2>Technologies used</h2>
 <ul>
   <li>HTML5</li>
