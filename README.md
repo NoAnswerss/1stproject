@@ -1,9 +1,4 @@
-<!-- Needs Sources Updating --> 
-
-
-Reservia: Rental Marketplace
-
-Transformed mockup into responsive one-page HTML/CSS static template
+<h1>Plain Website for Hotel Accommodations in Marseille and Activities</h1>
 
 Live page @ https://c-v-pop.github.io/Reservia/
 
