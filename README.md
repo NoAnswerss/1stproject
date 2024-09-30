@@ -19,6 +19,7 @@ Coded in Visual Studio Code and used:
 </ul>
 
 <h2>Desktop transformation of mockups </h2>
+
 ![Desktop - 1](https://user-images.githubusercontent.com/61190539/204389497-a546e98e-3bc7-489c-9d19-feadb787a2b3.png)
 
 <h2>Mobile display accros multiple devices</h2>
