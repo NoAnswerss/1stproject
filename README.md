@@ -18,3 +18,6 @@ Live page @ https://c-v-pop.github.io/Reservia/
 <h2>Mobile display accros multiple devices</h2>
 
 ![iPhone 8 - 1](https://user-images.githubusercontent.com/61190539/204389603-dad8a675-51b7-47b8-96ae-d4037e1cdb46.png)
+
+
+2024 Copyright Rights Reserved - Ciprian Pop
